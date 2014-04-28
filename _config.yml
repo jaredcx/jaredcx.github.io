@@ -1,0 +1,7 @@
+name: ""
+description: ""
+url: "lobo:4000"
+paginate: 10
+markdown: rdiscount
+permalink: pretty
+#pygments: true
