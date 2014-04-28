@@ -114,13 +114,11 @@ section.careers h1{
     margin-bottom:20px;
 }
 .teambox a img{
-    //border: 5px solid #f8f8f8;
-    border: 5px solid blue;
+    border: 5px solid #f8f8f8;    
      border-radius: 50%;
 }
-.teambox a:hover img{
-    border: 5px solid yellow;
-    //border: 5px solid white;
+.teambox a:hover img{    
+    border: 5px solid white;
     border-radius: 50%;
 }
 
