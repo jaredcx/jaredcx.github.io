@@ -163,3 +163,18 @@ section.careers h1{
     margin: 0px 20px 0px 20px;
     width: 50px;
 }
+
+
+.biodropdown h1{
+    text-align: center;
+    font-family:"Open Sans";
+    font-weight: bold;
+    font-size: 32px;
+    color: #7c7c7c;  
+}
+
+.biodropdown h2{
+    text-align: center;
+    font-size: 24px;
+    color: #7c7c7c
+}
