@@ -135,11 +135,32 @@ section.careers h1{
 
 .teambox a{
     text-decoration: none;
-    color: #388168;        
+    color: #388168;    
+    
+}
+
+.biodropdown h1{
+    font-family:"Open Sans";
+    font-weight: bold;
+    font-size: 32px;
+    color: #7c7c7c;  
+}
+
+.biodropdown h2{
+    font-size: 24px;
+    color: #7c7c7c
+}
+
+
+.qtip-default {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eaeaea;
+    background-color: #fff;    
 }
 
 .biodropdown img{
-    margin: 20px 20px 0px 20px;    
+    margin: 0px 20px 0px 20px;
     width: 50px;
 }
 
@@ -158,16 +179,4 @@ section.careers h1{
     color: #7c7c7c
 }
 
-
-.qtip-default {
-    border-width: 2px;
-    border-style: solid;
-    border-color: #eaeaea;
-    background-color: #fff;    
-}
-
-
-.qtip-content{
-    max-width: 220;
-}
-
+/*add in lineheight to fix overlapping of text*/
