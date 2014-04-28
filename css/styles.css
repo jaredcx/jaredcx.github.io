@@ -152,3 +152,16 @@ section.careers h1{
     font-size: 24px;
     color: #7c7c7c
 }
+
+
+.qtip-default {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eaeaea;
+    background-color: #fff;    
+}
+
+.biodropdown img{
+    margin: 0px 20px 0px 20px;
+    width: 50px;
+}
