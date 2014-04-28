@@ -181,4 +181,8 @@ section.careers h1{
     color: #7c7c7c
 }
 
+.biodropdown p{
+    font-size: 12px;
+}
+
 /*add in lineheight to fix overlapping of text*/
