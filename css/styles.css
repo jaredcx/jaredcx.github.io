@@ -60,7 +60,7 @@ a.button_link{
     background-color: #49b086;
     position: absolute;
     top: 50%;
-    margin-top: -40px;
+    margin-top: -50px;
     left:50%;
     margin-left: -200px;
     color: white;
@@ -68,7 +68,7 @@ a.button_link{
     font-size: 32px;
     z-index: 2;
     text-align:center;
-    padding-top: 20px;
+    padding-top: 18px;
     letter-spacing: 6px
 }
 
