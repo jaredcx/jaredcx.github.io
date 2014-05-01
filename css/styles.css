@@ -107,6 +107,7 @@ section.footer{
 section.text p{
     font-weight: bold;
     font-style: italic;
+    font-size: 18px;
 
 }
 section.text h1{
