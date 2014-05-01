@@ -43,7 +43,9 @@ header{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    text-decoration: none;    
+    text-decoration: none;  
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 a.button_link{    
