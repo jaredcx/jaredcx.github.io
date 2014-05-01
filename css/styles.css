@@ -99,6 +99,11 @@ section.text, section.footer{
     background-color: #ffffff;
     line-height: 1.8;
 }
+
+section.text.wide{
+    width: 60%;
+    margin: auto;
+}
 /*section.text, section.footer{
     position: relative;
     width: 34%;
@@ -148,9 +153,8 @@ section.careers h1{
     text-align:center;
 }
 .teambox{
-    width: 140px;
-    margin-left: 25px;
-    margin-right: 25px;
+    width: 33%;
+    
     float: left;
     text-align:center;
     margin-bottom:40px;
@@ -293,5 +297,7 @@ table tr td.rowheader{
     border-left: 1px solid lightgrey;
     text-align: left;
 }
+
+
 
 /*add in lineheight to fix overlapping of text*/
