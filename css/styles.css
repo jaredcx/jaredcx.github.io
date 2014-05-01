@@ -120,10 +120,12 @@ section.careers{
     color: white;
     background-color: #49b086;
     padding-bottom: 50px;
+    line-height: 1.8;
 }
 section.careers .content{
     width: 34%;
     margin: 30px 25% 30px 32%;
+    
 }
 
 section.careers p{
