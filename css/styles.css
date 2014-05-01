@@ -94,10 +94,10 @@ a.button_link{
 section.text, section.footer{
     position: relative;
     width: 34%;
-    margin: 30px 25% 30px 25%;
+    margin: 30px 25% 30px 32%;
     color: #5a5a5a;
     background-color: #ffffff;
-    line-height: 2;
+    line-height: 1.8;
 }
 section.footer{    
     width: 70%;
