@@ -37,17 +37,30 @@ header{
     border-radius: 3px;
 }
 
-.navigation a.button, a.button, a.button_link{
+.button, .navigation a.navbutton, a.navbutton, a.button_link{
     background-color: #fda134;
     color: white;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+    text-decoration: none;    
 }
 
 a.button_link{    
     text-decoration: none;        
     padding: 15px;
+}
+
+.button{
+    display:inline-block;
+    width: 160px;
+    height: 52px;
+    text-align: center;    
+    font-size: 18px;
+}
+.button span{
+     display:inline-block;
+    margin-top:10px;
 }
 
 #title{
@@ -76,7 +89,12 @@ section.text, section.footer{
     position: relative;
     width: 50%;
     margin: 30px 25% 30px 25%;
-    color: #388168; 
+    color: #388168;
+    background-color: #ffffff;
+}
+section.footer{    
+    width: 70%;
+    margin: auto;
 }
 
 section.text p{
@@ -128,6 +146,7 @@ section.careers h1{
 }
 
 .footer .col{
+    padding-top: 50px;
     width: 21%;
     height: 100px;
     float: left;    
@@ -184,6 +203,71 @@ section.careers h1{
 
 .biodropdown p{
     font-size: 12px;
+}
+
+.features{
+    color: #a4a4a4;
+    background-color: #f8f8f8;
+}
+
+.pricing.text{
+    background-color: #f0f0f0;
+}
+
+.pricing{ margin-top: 50px;}
+
+.pricing table{
+    width: 90%;
+    margin: auto;
+}
+
+.pricing table thead .top{
+    text-align: center;
+    background-color: #47a982;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    top: 0px;    
+}
+.pricing table thead .content{
+    text-align: center;    
+    height: 160px;
+}
+
+.calltoaction{
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.dollarsign{
+    vertical-align: top;
+    padding-top: 10px;
+}
+.pricetag{
+    font-size: 60px;font-weight: bold;
+}
+.pricetag.small{
+    line-height: 60px;
+    font-size: 40px;font-weight: bold;
+}
+.pricing table .corner{
+    font-size: 36px;
+    width: 200px;
+}
+.pricing table td{
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+table tr.odd td{
+    background-color: #f8f8f8f;
+}
+table tr.odd td,table tr.even td{
+    padding: 10px;
+    text-align: center;
+}
+table tr td.rowheader{
+    border-left: 1px solid lightgrey;
+    text-align: left;
 }
 
 /*add in lineheight to fix overlapping of text*/
