@@ -28,7 +28,7 @@ header{
     padding: 15px;
 }
 .navigation a.active{
-    color: #388168;  
+    color: #7c7c7c;  
 }
 .navigation a.hover{       
     border: 1px solid #49b086;
