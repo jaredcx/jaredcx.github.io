@@ -107,6 +107,7 @@ section.footer{
 section.text p{
     font-weight: bold;
     font-style: italic;
+    line-height: 150%;
 }
 section.text h1{
     color: #a4a4a4;
