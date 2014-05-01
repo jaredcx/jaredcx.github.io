@@ -97,7 +97,7 @@ section.text, section.footer{
     margin: 30px 25% 30px 25%;
     color: #5a5a5a;
     background-color: #ffffff;
-    line-height: 150%;
+    line-height: 2;
 }
 section.footer{    
     width: 70%;
@@ -107,7 +107,7 @@ section.footer{
 section.text p{
     font-weight: bold;
     font-style: italic;
-    line-height: 150%;
+
 }
 section.text h1{
     color: #a4a4a4;
