@@ -50,7 +50,7 @@ header{
 }
 
 a.navbutton:hover{
-    border:10px solid blue;
+    background-color: #ec9126;
     
 }
 
