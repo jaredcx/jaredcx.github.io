@@ -281,6 +281,7 @@ section.careers h1{
 .pricing table{
     width: 90%;
     margin: auto;
+    border-collapse: collapse;
 }
 
 .pricing table thead .top{
