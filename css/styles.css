@@ -320,6 +320,7 @@ table tr td.rowheader{
 .footer a.page{
     font-size: 16px;
     color: #7c7c7c;
+    text-decoration: none;
 }
     
 }
