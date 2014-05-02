@@ -154,6 +154,7 @@ section.careers{
     //height: 100px;
     padding: 0px 0 30px 0;
     line-height: 1.8;
+    text-decoration: none;
 }
 section.careers .content{
     width: 34%;
