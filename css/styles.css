@@ -175,6 +175,8 @@ section.careers h1{
 .bottomlinkbanner.careers{
     padding: 38px 0px 30px 0px;
 }
+
+/* CSS for all team headshot bios*/
 .teambox{
     width: 33%;
     
@@ -190,6 +192,14 @@ section.careers h1{
     border: 5px solid white;
     border-radius: 50%;
 }
+
+a.twitter_icon{
+    background-color: red;
+}
+
+
+//End of Teamheadshots CSS//
+
 
 .clear{
     clear: both;
