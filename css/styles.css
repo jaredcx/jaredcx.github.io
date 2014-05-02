@@ -203,9 +203,9 @@ section.careers h1{
 
 .footerbox{
     border: 1px solid red;
-    text-decortion: none;
+    text-decoration: none;
     color: #a4a4a4;
-    background-color: red;
+    background-color: #f8f8f8;
 }
 
 .teambox a{
