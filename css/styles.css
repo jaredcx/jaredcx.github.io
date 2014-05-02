@@ -130,7 +130,7 @@ section.text.wide{
     */
 
 section.footer{    
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 
@@ -194,7 +194,7 @@ section.careers h1{
 
 .footer .col{
     padding-top: 50px;
-    width: 28%;
+    width: 23%;
     height: 100px;
     float: left;    
     margin-right: 20px;
