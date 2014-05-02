@@ -132,6 +132,7 @@ section.text.wide{
 section.footer{    
     width: 85%;
     margin: auto;
+    height: 500px;
 }
 
 section.text p{
@@ -328,5 +329,7 @@ table tr td.rowheader{
 .footer a{
     
 }
+
+
 
 /*add in lineheight to fix overlapping of text*/
