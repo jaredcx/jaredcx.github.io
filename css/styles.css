@@ -143,8 +143,8 @@ section.careers{
     position: relative;    
     color: white;
     background-color: #49b086;
-    height: 100px;
-    padding-top: 0px;
+    //height: 100px;
+    padding: 30px 0 30px 0;
     line-height: 1.8;
 }
 section.careers .content{
