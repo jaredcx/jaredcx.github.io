@@ -165,6 +165,7 @@ section.careers .content{
 section.careers p{
     font-weight: bold;
     font-style: italic;
+    text-decoration: none;
 }
 section.careers h1{ 
     width: 100%;
