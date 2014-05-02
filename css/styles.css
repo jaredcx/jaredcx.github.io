@@ -321,6 +321,10 @@ section.careers h1{
     border-right: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
 }
+.pricing table tr.nrow:first-child{
+    border-left: 1px solid lightgrey;
+}
+
 table tr.odd td{
     background-color: #f8f8f8f;
 }
