@@ -6,6 +6,12 @@ body{
     font-style:  normal;
     color: #a4a4a4;    
 }
+
+.hey{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+}
 ul.navigation{
     float:right;    
     list-style-type: none;
