@@ -205,7 +205,10 @@ section.careers h1{
     text-decoration: none;
     color: #a4a4a4;
     background-color: #f8f8f8;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
 }
 
 .teambox a{
