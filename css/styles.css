@@ -49,6 +49,11 @@ header{
     padding-right: 25px;
 }
 
+a.navbutton:hover{
+    border:10px solid blue;
+    
+}
+
 a.button_link{    
     text-decoration: none;        
     padding: 15px;
