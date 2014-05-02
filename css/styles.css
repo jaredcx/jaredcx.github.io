@@ -201,6 +201,10 @@ section.careers h1{
     margin-right: 20px;
 }
 
+.footerbox{
+    border: 1px solid red;
+}
+
 .teambox a{
     text-decoration: none;
     font-family: Open Sans, Semibold;
