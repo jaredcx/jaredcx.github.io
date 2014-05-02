@@ -330,6 +330,11 @@ table tr td.rowheader{
     
 }
 
+.date_icon{
+    height: 36px;
+    vertical-align: middle;
+}
+
 
 
 /*add in lineheight to fix overlapping of text*/
