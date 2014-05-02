@@ -108,6 +108,7 @@ a.button_link:hover{
 section.text, section.footer{
     position: relative;
     width: 40%;
+    font-size: 12px;
     margin: 30px 25% 30px 32%;
     color: #d2d2d2;
     background-color: #ffffff;
