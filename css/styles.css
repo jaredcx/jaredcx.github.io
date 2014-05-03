@@ -150,6 +150,7 @@ section.text h1{
 section.careers{
     position: relative;    
     color: white;
+    font-size:  18px;
     background-color: #49b086;
     //height: 100px;
     padding: 0px 0 30px 0;
