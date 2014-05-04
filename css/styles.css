@@ -362,6 +362,10 @@ section.careers h1{
     border-top: 0px;
     font-size:  26px;
 }
+.pricing table .corner div{
+    width: 100%;
+    padding:30px;
+}
 .pricing table td{
     border-right: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
