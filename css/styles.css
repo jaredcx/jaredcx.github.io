@@ -143,12 +143,16 @@ section.text.wide{
     In here for bio headshot section.
     */
 
-section.footer{    
-    width: 100%;
-    padding-left: 7.5%;
-    padding-right: 7.5%;
-    margin: auto;
+section.footer{
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;    
     height: 500px;
+}
+section.footer #content{
+    width: 85%;
+    margin: auto;
 }
 
 section.text p{
