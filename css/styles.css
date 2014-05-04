@@ -196,9 +196,10 @@ section.careers h1{
 .bottomlinkbanner.careers{
     padding: 38px 0px 30px 0px;
 }
+
 .bottomlinkbanner.features{
-     padding: 38px 0px 30px 0px;
-     font-size: 20px;
+     padding: 78px 0px 70px 0px;
+     font-size: 20px;     
      background-color: #f8f8f8;
 }
 /* CSS for all team headshot bios*/
