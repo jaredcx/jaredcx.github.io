@@ -229,14 +229,15 @@ section.careers h1{
     color: #a2a2a2;
     text-align: center;
     font-size: 10px;
+    vertical-align: middle;
 }
 .disclaimer .left{
     float:left;
-    width:500px;
+    width: 350px;
     padding-left:120px;
     border-right:1px solid grey;
     height:100px;
-    vertical-align: middle;
+  
 }
 
 .teambox a{
