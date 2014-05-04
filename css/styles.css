@@ -371,7 +371,7 @@ table tr.odd td{
     background-color: #f8f8f8;
 }
 table tr.odd td,table tr.even td{
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 table tr.even td{
