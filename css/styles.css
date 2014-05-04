@@ -233,9 +233,9 @@ section.careers h1{
 }
 .disclaimer table {
     font-size:12px;
-    margin: 0px 10px 0px 120px;
+    margin: auto;
         height:100px;
-        width:100%;
+        width:90%;
  }
  .disclaimer table td{
      width:50%;
