@@ -345,7 +345,7 @@ table tr td.rowheader{
     border-left: 1px solid lightgrey;
     text-align: left;
 }
-.pricing table tr.nrow:first-child{
+.pricing table tr.nrow td:first-child{
     text-align: left;
 }
 .footer a.page{
