@@ -77,6 +77,8 @@ a.button_link{
     height: 52px;
     text-align: center;    
     font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .button span{
      display:inline-block;
