@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="{{ base.url }}/css/styles.css" />
         <script type="text/javascript">
             $("document").ready(function(){
+                
                 $(".teambox a").qtip({ style: 'qtip-wiki',
                                      
                     hide: {
@@ -31,8 +32,10 @@
                     return 'Loading...'; // Set some initial text
                 }
                 }
-                });               
-                
+                });
+                $(".teambox a").click(function(){
+                    return false;
+                });                
             });
         </script>
         
