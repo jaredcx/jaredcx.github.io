@@ -222,7 +222,7 @@ section.careers h1{
     text-align: center;
 }
 .disclaimer{
-    padding: 0px 120px 0px 120px;
+  
     height: 100px;
     width: 100%;
     background-color: #d2d2d2;
@@ -232,13 +232,16 @@ section.careers h1{
     vertical-align: middle;
 }
 .disclaimer table {
+    font-size:12px;
     margin: 0px 120px 0px 120px;
         height:100px;
+        width:100%;
  }
  .disclaimer table td{
-     width:40%;
+     width:50%;
      vertical-align: middle
      padding:10px;
+     border-right: 1px solid lightgrey;
      text-align:center;
  }
  
