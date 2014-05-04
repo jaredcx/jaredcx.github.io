@@ -236,7 +236,9 @@ section.careers h1{
         height:100px;
  }
  .disclaimer table td{
-     vertical-align: middle;
+     width:40%;
+     vertical-align: middle
+     padding:10px;
      text-align:center;
  }
  
