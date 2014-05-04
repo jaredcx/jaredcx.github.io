@@ -86,14 +86,15 @@ a.button_link:hover{
 #title{
     position: relative;    
 }
-
-#title div{
+#title2{    
+    height: 250px;
+    vertical-align: middle;
+}
+#title div,#title2 div{
     height: 60px;    
     width: 340px;
     background-color: #49b086;
-    position: absolute;
-    top: 51.5%;
-    margin-top: -50px;
+    position: absolute;    
     left:50%;
     margin-left: -200px;
     color: white;
@@ -104,6 +105,10 @@ a.button_link:hover{
     padding-top: 18px;
     letter-spacing: 6px
 }
+#title2 div{
+    top: 60%;
+}
+#title div{ top: 51.5%; }
 
 section.text, section.footer{
     position: relative;
@@ -355,6 +360,36 @@ table tr td.rowheader{
 .date_icon{
     height: 36px;
     vertical-align: middle;
+}
+
+.faq{
+    margin: 0px 120px 0px 120px;
+}
+.faq div.question{
+    display: block;
+    width: 45%;
+    margin-right:20px;
+    float: left;
+    background-color: lightgrey;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.faq div.answer{
+    margin-bottom: 25px;
+    display: none;
+}
+.clear{
+    clear: both;
+}
+.videoitem{
+    float: left;
+}
+section.videos{
+    margin: 0px 120px 0px 120px;
+}
+.videoitem iframe{
+    width: 25%;
 }
 
 
