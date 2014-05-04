@@ -244,30 +244,25 @@ section.careers h1{
     width: 180px;
     text-align: center;
 }
-.disclaimer{
-  
-    height: 100px;
-    width: 100%;
-    background-color: #d2d2d2;
-    color: #a2a2a2;
-    text-align: center;
-    font-size: 12px;
-    vertical-align: middle;
+
+        
+.disclaimer .content {
+    margin: auto;        
+    width:90%;    
 }
-.disclaimer table {
-    font-size:12px;
-    margin: auto;
-        height:100px;
-        width:90%;
- }
- .disclaimer table td{
-     width:50%;
-     vertical-align: middle
-     padding:10px;
-     border-right: 1px solid red;
-     text-align:left;
- }
  
+ .disclaimer .discol {
+    width: 40%;
+    display: table-cell;
+    height: 100px;
+    vertical-align: middle;
+ }
+ .disclaimer .discol{
+    padding: 0 10px 0 10px;
+}
+ .disclaimer .left{    
+    border-right: 1px solid grey;
+ }
 
 .teambox a{
     text-decoration: none;
