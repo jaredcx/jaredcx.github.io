@@ -231,14 +231,15 @@ section.careers h1{
     font-size: 12px;
     vertical-align: middle;
 }
-.disclaimer .left{
-    float:left;
-    width: 350px;
-    padding-left:120px;
-    border-right:1px solid grey;
-    height:100px;
-  
-}
+.disclaimer table {
+    margin: 0px 120px 0px 120px;
+        height:100px;
+ }
+ .disclaimer table td{
+     vertical-align: middle;
+     text-align:center;
+ }
+ 
 
 .teambox a{
     text-decoration: none;
