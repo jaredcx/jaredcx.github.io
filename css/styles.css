@@ -370,6 +370,7 @@ section.careers h1{
     border-right: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     border-left: 1px solid lightgray;
+    border-top: 1px solid #49b086;
 }
 .pricing table tr.nrow td{
     border-left: 1px solid lightgrey;
