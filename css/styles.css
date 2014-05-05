@@ -119,11 +119,8 @@ a.button_link:hover{
 #title{
     position: relative;    
 }
-#title2{    
-    height: 250px;
-    vertical-align: middle;
-}
-#title div,#title2 div{
+
+#title div{
     height: 60px;    
     width: 340px;
     background-color: #49b086;
@@ -158,14 +155,8 @@ a.button_link:hover{
     float: right;
 }
 
-
-
-
-#title2 div{
-    top: 60%;
-}
 #title div{ top: 51.5%; }
-}
+
 
 section.text, section.footer{
     position: relative;
@@ -510,9 +501,6 @@ table tr td.rowheader{
 }
 .videoitem{
     float: left;
-}
-section.videos{
-    margin: 0px 120px 0px 120px;
 }
 .videoitem iframe{
     width: 80%;
