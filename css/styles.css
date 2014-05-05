@@ -122,6 +122,22 @@ a.button_link:hover{
 }
 #title div{ top: 51.5%; }
 
+.indextitle{
+    eight: 60px;    
+    width: 340px;
+    background-color: #49b086;
+    position: absolute;    
+    left:50%;
+    margin-left: -200px;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    z-index: 2;
+    text-align:center;
+    padding-top: 18px;
+    letter-spacing: 6px
+}
+
 section.text, section.footer{
     position: relative;
     width: 50%;
