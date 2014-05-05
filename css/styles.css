@@ -14,8 +14,9 @@ body.product{
 .indextitle{
     position: absolute;
     text-align: center;
-    margin: 200px; 25%; 100px; 25%; 
+    margin: 200px; 25%; 200px; 25%; 
     font-size: 50px;
+    color: white;
     
 }
 
