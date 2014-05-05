@@ -142,7 +142,7 @@ a.button_link:hover{
 #title_index div{
     margin: 10%;
     position: absolute;
-    top: 110px;
+    top: 50px;
     color: white;    
     z-index: 2;
 }
@@ -549,15 +549,12 @@ section.howtos div.content,section.videos div.content {
     text-align: center;    
     background-color: green;
 }
-
 section.videos,section.howtos{    
-    text-align: center;
-    
+    text-align: center;    
 }
 .howtoitem,.videoitem{
     width: 30%;        
 }
-
 .rightspace{
     margin-right: 20px;
 }
