@@ -123,9 +123,8 @@ a.button_link:hover{
 #title div{ top: 51.5%; }
 
 .indextitle{
-    eight: 60px;    
+    height: 60px;    
     width: 340px;
-    background-color: #49b086;
     position: absolute;    
     left:50%;
     margin-left: -200px;
