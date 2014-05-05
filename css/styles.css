@@ -14,7 +14,7 @@ body.product{
 .hey{
     font-weight: bold;
     font-style: italic;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 ul.navigation{
@@ -164,6 +164,7 @@ section.text{
     margin: 30px 25% 30px 25%;
     font-size: 18px;
     line-height: 1.8;
+
 
 }
 
