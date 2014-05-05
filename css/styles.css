@@ -22,6 +22,7 @@ body.product{
 }
 
 .indexsubtitle span{
+    position: absolute;
     color: blue;
     padding: 100px 10px 10px 100px;
 }
