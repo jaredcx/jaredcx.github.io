@@ -7,6 +7,17 @@ body{
     color: #a4a4a4;    
 }
 
+section.text{
+    position: relative;    
+    color: white;
+    font-size:  18px;
+    background-color: #49b086;
+    //height: 100px;
+    padding: 0px 0 30px 0;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
 body.product{
     background-color: #f0f0f0;
 }
