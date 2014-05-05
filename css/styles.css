@@ -11,6 +11,8 @@ body.product{
     background-color: #f0f0f0;
 }
 
+a{ text-decoration: none; }
+
 .indextitle{
     position: absolute;
     font-weight: bold;
@@ -562,6 +564,24 @@ section.videos,section.howtos{
 
 /*add in lineheight to fix overlapping of text*/
 
+section.textcenter{
+    width: 80%;
+    text-align: center;
+    padding: 10%;    
+}
+
+section.textcenter .content{
+    width: auto;
+}
+section.white{
+    background-color: white;
+}
+section.green{
+    background-color: green;
+}
+section.grey{
+    background-color: lightgrey;
+}
 
 
 
