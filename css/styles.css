@@ -136,6 +136,29 @@ a.button_link:hover{
     padding-top: 18px;
     letter-spacing: 6px
 }
+
+#title_index div{
+    margin: 10%;
+    position: absolute;
+    top: 110px;
+    color: white;    
+    z-index: 2;
+}
+#title_index div h1{
+    text-align: center;
+    width: 80%;
+    font-size: 70px;
+}
+#title_index div p{
+        font-size: 28px;
+}
+#title_index div iframe{
+    float: right;
+}
+
+
+
+
 #title2 div{
     top: 60%;
 }
@@ -490,10 +513,8 @@ section.videos{
     margin: 0px 120px 0px 120px;
 }
 .videoitem iframe{
-    width: 25%;
+    width: 80%;
 }
-
-
 
 .faq{
     margin: 0px 120px 0px 120px;
@@ -532,8 +553,7 @@ section.videos,section.howtos{
     
 }
 .howtoitem,.videoitem{
-    width: 30%;
-    border: 1px thick red;
+    width: 30%;        
 }
 
 .rightspace{
