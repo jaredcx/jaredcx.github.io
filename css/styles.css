@@ -161,8 +161,9 @@ section.footer #content{
 }
 
 section.text{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 30px 25% 30px 25%;
+    font-size: 18px;
+
 }
 
 section.text p{
