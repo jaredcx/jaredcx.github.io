@@ -121,20 +121,6 @@ a.button_link:hover{
     top: 60%;
 }
 #title div{ top: 51.5%; }
-
-.indextitle{
-    height: 60px;    
-    width: 800px;
-    position: absolute;    
-    left:50%;
-    margin-left: -200px;
-    color: white;
-    font-weight: normal;
-    font-size: 50px;
-    z-index: 4;
-    text-align:center;
-    padding-top: 60px;
-    letter-spacing: 6px
 }
 
 section.text, section.footer{
