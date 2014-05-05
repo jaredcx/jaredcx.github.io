@@ -7,7 +7,7 @@ body{
     color: #a4a4a4;    
 }
 
-section.text{
+.text{
     position: relative;    
     color: white;
     font-size:  18px;
