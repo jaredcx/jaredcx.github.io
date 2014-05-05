@@ -273,6 +273,9 @@ section.careers h1{
  .disclaimer .left{    
     border-right: 1px solid #f0f0f0;
  }
+.disclaimer a.rightlinks{
+    text-decoration: none;
+}
 
 .teambox a{
     text-decoration: none;
