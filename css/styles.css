@@ -18,7 +18,7 @@ body.product{
 }
 
 /* Test junk*/
-section.text{
+.text{
     position: relative;    
     color: black;
     font-size:  18px;
