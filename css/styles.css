@@ -506,20 +506,17 @@ table tr td.rowheader{
     width: 80%;
 }
 
-.faq{
-    margin: 0px 120px 0px 120px;
-}
-.faq div.question{
+div.question{
     display: block;
     width: 46%;
     margin-right:20px;
     float: left;
-    background-color: lightgrey;
+    background-color: white;
     padding: 10px;
     margin-bottom: 25px;
 }
 
-.faq div.answer{
+div.answer{
     margin-bottom: 25px;
     display: none;
 }
@@ -549,13 +546,16 @@ section.videos,section.howtos{
 
 /*add in lineheight to fix overlapping of text*/
 
-section.textcenter{
+section.textcenter, section.textleft{
     width: 80%;
     text-align: center;
     padding: 10%;    
 }
+section.textleft{
+    text-align: left;
+}
 
-section.textcenter .content{
+section.textcenter .content, section.textleft .content{
     width: auto;
 }
 section.white{
@@ -565,6 +565,10 @@ section.green{
     background-color: green;
 }
 section.grey{
+    background-color: lightgrey;
+}
+
+section.lgrey{
     background-color: lightgrey;
 }
 
