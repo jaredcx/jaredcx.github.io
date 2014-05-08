@@ -126,6 +126,8 @@ a.button_link:hover{
 .centertext{
     color: #5a5a5a;
     font-size: 54px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .bottomcaps{
