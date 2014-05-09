@@ -616,7 +616,7 @@ section.videos,section.howtos{
 
 /*add in lineheight to fix overlapping of text*/
 
-section.textcenter.small{
+section.small{
     padding-top: 2%:
     padding-bottom: 2%;
 }
