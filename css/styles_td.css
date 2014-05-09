@@ -22,8 +22,21 @@ section img.left{
 section.textcenter.narrow, section.textleft.narrow{
     width: 50%;    
     padding-left: 25%;
-    padding-right: 25%;    
+    padding-right: 25%;   
 }
+section.textcenter.narrow2{
+    width: 50%;    
+    padding-left: 25%;
+    left: 0px;
+}
+
+.homearrow{
+    float: right;
+    position: absolute;
+    z-index: 3;
+}
+
+
 .content ul{
   list-style-position: inside;
   
