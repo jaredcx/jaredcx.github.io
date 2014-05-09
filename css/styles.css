@@ -173,6 +173,7 @@ a.button_link:hover{
     position: relative;
     top: 20px;
     right: 170px;
+    z-index: 3;
 }
 
 /*End CSS to style home page text in 3 color bands*/
