@@ -616,6 +616,12 @@ section.videos,section.howtos{
 
 /*add in lineheight to fix overlapping of text*/
 
+section.textcenter.small{
+    padding-top: 2%:
+    padding-bottom: 2%;
+}
+
+
 section.textcenter, section.textleft{
     width: 80%;
     text-align: center;
@@ -640,11 +646,6 @@ section.grey{
 
 section.lgrey{
     background-color: lightgrey;
-}
-
-section.textcenter.small{
-    padding-top: 2%:
-    padding-bottom: 2%;
 }
 
 /*add in lineheight to fix overlapping of text*/
