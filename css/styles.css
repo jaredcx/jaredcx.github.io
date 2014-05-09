@@ -79,6 +79,7 @@ header{
     text-decoration: none;  
     padding-left: 25px;
     padding-right: 25px;
+    box-shadow: 1px 2px 2px #888888;
 }
 
 a.navbutton:hover{
