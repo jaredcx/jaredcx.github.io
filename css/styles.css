@@ -152,10 +152,12 @@ a.button_link:hover{
 }
 
 .custquotename{
-    vertical-align: middle;
     color: white;
     font-size: 20px;
-}    
+}
+.custquotename img{
+    vertical-align: middle;
+} 
 .custquotename span{
     vertical-align: middle;
 }    
