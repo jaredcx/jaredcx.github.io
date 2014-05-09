@@ -123,6 +123,11 @@ a.button_link:hover{
     font-size: 20px;
 }
 
+.toptextwht{
+    color: white;
+    font-size: 20px;
+}
+
 .centertext{
     color: #5a5a5a;
     font-size: 54px;
