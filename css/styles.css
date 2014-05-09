@@ -129,6 +129,12 @@ a.button_link:hover{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.centertextwht{
+    color: white;
+    font-size: 54px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .bottomcaps{
     color: #a4a4a4;
