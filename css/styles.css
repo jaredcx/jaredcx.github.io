@@ -145,6 +145,11 @@ a.button_link:hover{
     font-size: 20px;
 }    
 
+.whoimages{
+    height: 50%;
+    width: 50%;
+}
+
 /*End CSS to style home page text in 3 color bands*/
 
 #title{
