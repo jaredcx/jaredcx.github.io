@@ -167,6 +167,10 @@ a.button_link:hover{
     width: 50px;
 }
 
+.centertext img{
+    vertical-align: middle;
+}
+
 /*End CSS to style home page text in 3 color bands*/
 
 #title{
