@@ -170,6 +170,9 @@ a.button_link:hover{
 .homearrow{
     vertical-align: middle;
     float: right;
+    position: relative;
+    top: 300px;
+    right: 200px;
 }
 
 /*End CSS to style home page text in 3 color bands*/
