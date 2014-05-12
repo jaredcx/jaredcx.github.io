@@ -650,25 +650,7 @@ section.lgrey{
     background-color: lightgrey;
 }
 
-.indexfooter{
-    background-size: 100% 100%;
-    background-repeat:no-repeat;
-}
-.indexfooter .circle{
-    text-align: center;        
-    float: left;    
-    height: 100px;
-    width: 100px;
-    background-color: white;
-    color: black;    
-}
-.indexfooter .circle .h3{
- vertical-align: middle;  
-    
-}
-.indexfooter .circle.am{
-    margin-right: 25%;
-}
+
 
 
 /*add in lineheight to fix overlapping of text*/
