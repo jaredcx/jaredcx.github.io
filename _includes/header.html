@@ -13,6 +13,12 @@
         <script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.js"></script>
         <link rel="stylesheet" type="text/css" href="{{ base.url }}/css/styles.css" />
         <link rel="stylesheet" type="text/css" href="{{ base.url }}/css/styles_td.css" />
+        
+        {% unless page.ssfont.empty? %}
+         <script src="{{ base.url }}/Symbolset/ss-air/webfonts/{{ page.ssfont }}.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ base.url }}/Symbolset/{{ page.ssfont }}/webfonts/{{ page.ssfont }}.css" />        
+        {% endunless %}
+        
         <script type="text/javascript">
             $("document").ready(function(){
                 
