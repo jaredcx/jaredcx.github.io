@@ -75,3 +75,8 @@ float: right; width: 90%;
 .indexfooter .circle.am{
     margin-right: 15%;
 }
+
+.circle a{
+    color: #5a5a5a;
+}
+
