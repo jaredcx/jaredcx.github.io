@@ -7,6 +7,10 @@ body{
     color: #a4a4a4;    
 }
 
+h1.nobold{
+    font-weight:regular;
+}
+
 body.product{
     background-color: #f0f0f0;
 }
