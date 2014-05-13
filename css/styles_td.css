@@ -2,6 +2,9 @@
 
 .row{                                   display:table; width: 100%;}
 .stddist-i-l{                           padding-left:15%; }
+
+.stddist-o-l{                           margin-left:15%; }
+.stddist-o-r{                           margin-right:15%; }
 .stddist-i-r{                           padding-right:15%; }
 .narrow{                                padding-left:25%;padding-right:25%; }
 .wide{                                  padding-left:12%;padding-right:12%; }
@@ -12,6 +15,7 @@
 .stddist-i-t{                           padding-top: 50px; }
 .rightalign{                            text-align: right;  }
 .lefttalign{                            text-align: left;  }
+.center{                                text-align: center;  }
 .content .cell.vbottom{                 vertical-align: bottom;}
 .content .cell.vtop{                    vertical-align: top;}
 .white{                                 background-color: white;}
@@ -20,3 +24,8 @@
 .content{                               display:table-row;  text-align: left; }
 .content .cell{                         display:table-cell; vertical-align: middle;}
 .button.w220{                           width: 220px; }
+.third{                                 width: 33%;   }
+h3{                                     color: #a5a5a5a; }
+.innerstd{                              width: auto; margin-left: 15%; margin-right: 15%; padding: 25px;  }
+.inv h2{                                margin-top: 0px; }
+.inv{                                   display: none;}
