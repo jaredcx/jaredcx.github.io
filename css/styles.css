@@ -9,6 +9,7 @@ body{
 
 h1.nobold{
     font-weight:normal;
+    letter-spacing: 2px;
 }
 
 body.product{
