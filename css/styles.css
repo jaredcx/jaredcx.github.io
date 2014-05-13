@@ -294,6 +294,22 @@ section.careers{
     line-height: 1.8;
     text-decoration: none;
 }
+<--Features Footer List--> 
+
+section.featuresfooter{
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;    
+    height: 500px;
+}
+section.featuresfooter #content{
+    width: 85%;
+    margin: auto;
+}
+
+
+<--End Features Footer List-->
 section.careers .content{
     width: 50%;
     margin: 30px 25% 30px 25%;
