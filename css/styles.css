@@ -294,7 +294,7 @@ section.careers{
     line-height: 1.8;
     text-decoration: none;
 }
-<--Features Footer List--> 
+/*Features Footer List*/
 
 section.featuresfooter{
     left: 0px;
@@ -309,7 +309,7 @@ section.featuresfooter #content{
 }
 
 
-<--End Features Footer List-->
+/* End Features Footer List*/
 section.careers .content{
     width: 50%;
     margin: 30px 25% 30px 25%;
