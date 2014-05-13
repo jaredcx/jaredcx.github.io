@@ -29,26 +29,37 @@ section.textcenter.narrow2{
     padding-left: 25%;
     left: 0px;
 }
-
 .homearrow{
     float: right;
     position: absolute;
     z-index: 3;
 }
-
-
-.content ul{
-  list-style-position: inside;
-  
-}
-.content ul.white li{
-    background-color: white;
+.listitem{  
+  width: 100%;
+     background-color: white;
     padding: 10px;    
     margin-bottom: 20px;    
 }
+.listitem div.icon{
+    margin-left: 5px;
+}
+.listitem .icon{
+    color: #e9c858;
+    font-weight: bold;
+    font-size: 50px;
+    vertical-align: middle;
+    width: 28px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.listitem div.content{
+    vertical-align: middle;
+    display: inline-block;
+    width: 90%;
+}
 
 .listitem{
-float: right; width: 90%;    
+    float: right; width: 90%;    
 }
 
 .indexfooter{
@@ -80,3 +91,86 @@ float: right; width: 90%;
     color: #5a5a5a;
 }
 
+/* Feature teaser layout
+   ========================================================================== */
+
+.feature-teaser-title {
+  margin-left: -15px;
+  margin-right: -15px;
+  *zoom: 1;
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.feature-teaser-title:before,
+.feature-teaser-title:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+.feature-teaser-title:after {
+  clear: both;
+}
+.feature-teaser {
+  margin-left: -15px;
+  margin-right: -15px;
+  *zoom: 1;
+  overflow: hidden;
+  margin-top: 2em;
+  min-height: 500px;
+}
+.feature-teaser:before,
+.feature-teaser:after {
+  content: " ";
+  display: table;
+  line-height: 0;
+}
+.feature-teaser:after {
+  clear: both;
+}
+.feature-teaser .feature-image {
+  float: left;
+  width: 58.333333333333336%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 1.8em;
+}
+.feature-teaser .feature-image img {
+  margin-bottom: 0;
+  max-width: none;
+}
+.feature-teaser .feature-desc {
+  float: left;
+  width: 41.66666666666667%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 1em;
+  padding: 0 5%;
+}
+.feature-teaser .feature-logo {
+  margin-top: 1em;
+}
+.feature-teaser .feature-benefit {
+  clear: both;
+  padding: 1.5em 10%;
+}
+.feature-teaser.flipped .feature-image {
+  float: left;
+}
+.feature-teaser.flipped .feature-image img {
+  float: right;
+}
+.feature-teaser.flipped .feature-desc {
+  float: right;
+}
+.feature-teaser.feature-automation .feature-image {
+  margin-top: 2.5em;
+}
