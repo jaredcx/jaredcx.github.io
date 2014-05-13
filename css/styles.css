@@ -663,6 +663,8 @@ section.textleft{
 
 section.textcenter .content, section.textleft .content{
     width: auto;
+    font-size: 20px;
+    color: #5a5a5a;
 }
 section.white{
     background-color: white;
