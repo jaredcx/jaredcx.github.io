@@ -16,7 +16,12 @@
         {% unless page.ssfont.empty? %}
          <script src="{{ base.url }}/Symbolset/ss-air/webfonts/{{ page.ssfont }}.js"></script>
         <link rel="stylesheet" type="text/css" href="{{ base.url }}/Symbolset/{{ page.ssfont }}/webfonts/{{ page.ssfont }}.css" />        
+        {% endunless %}        
+        {% unless page.ssfont2.empty? %}
+         <script src="{{ base.url }}/Symbolset/ss-air/webfonts/{{ page.ssfont2 }}.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ base.url }}/Symbolset/{{ page.ssfont2 }}/webfonts/{{ page.ssfont2 }}.css" />        
         {% endunless %}
+        
         
         <script type="text/javascript">
             $("document").ready(function(){
