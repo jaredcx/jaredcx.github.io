@@ -91,7 +91,7 @@ header{     padding: 0 120px 0 120px; background-color: white;}
 }
 
 .navigation a.hover{       
-    border: 1px solid #49b086;
+    border: 1px solid #dedede;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
