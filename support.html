@@ -2,14 +2,22 @@
 title: Support
 tag: support
 layout: 'default'
+cssfile: _td
+ssfont: ss-air
 ---
 
 <script>
     $(document).ready(function(){
         $(".question").click(function(){
-            var id=$(this).attr("id");
-            $(".answer").hide();
-            $(".answer[id="+id+"]").show(200);
+            var que=$(this);
+            var ans=$(this).parent().find(".answer");
+            if (ans.is(":visible") ){
+                que.find(".ss-icon").html("&#x25bb;");
+                ans.hide("fast");
+            } else {
+                que.find(".ss-icon").html("&#xf501;");
+                ans.show("fast");
+            }
         });
     });
     
@@ -17,66 +25,134 @@ layout: 'default'
 <div id="title">
     <img width="100%" height="auto" src="{{ base.url }}/images/featurepic.jpg">
     <div >SUPPORT</div>    
-</div>       
+</div>
 
-
-<section class="textcenter white">
+<div class="row grey">
     <div class="content">
-          <input placeholder="Search" style="width: 30%; font-size:28px; margin-top: -20px;" type="text" name="search"></input>     
-      </div>
-</section>
-
-
-<section class="textleft lgrey">
-     <div class="content">
-        <div id="q1" class="question rightspace">lorem ipsum</div>
-        <div id="q2"class="question">lorem ipsum</div>
-        <div class="clear"></div>
-        <div id="q1" class="answer">lorepm ipsum1111111111111111111111111</div>
-        <div id="q2"class="answer">lorem ipsum2222222222</div>
-        
-        <div id="q3" class="question rightspace">lorem ipsum</div>
-        <div id="q4"class="question">lorem ipsum</div>
-        <div class="clear"></div>
-        <div id="q3" class="answer">lorem ipsum33333333333333333333333333333</div>
-        <div id="q4"class="answer">lorem ipsum444444444444444444444444</div>      
-     </div>
-</section>
-
-<section class="textcenter white">
-    <div class="content">
-      <div class="howtoitem">
-          <iframe src="//www.youtube.com/embed/IB23HH9YXzc" frameborder="0" allowfullscreen></iframe><br>
-  
-      </div>
-      <div class="howtoitem">
-  <iframe src="//www.youtube.com/embed/jdO1qky28H4" frameborder="0" allowfullscreen></iframe><br>
-      </div>
-      <div class="howtoitem">
-           <iframe src="//www.youtube.com/embed/zRMgM78oXiI" frameborder="0" allowfullscreen></iframe><br>
-      </div>
-      </div>
-    <br /><br /><br /><br />
-</section>
-<div class="clear"></div>
-
-
-<div class="clear"></div>
-<section class="textcenter green">
-    <div class="content">
-      <div class="howtoitem">  
-  cvvccvxvxccvxvcvcvx
-  cvxcvcxcvxvc
-  <br/>
-        blabla
-
-      </div>
-      <div class="howtoitem">
-fsdfsdfd
-      </div>
-      <div class="howtoitem">
-       sdfdsf
-      </div>
+        <div class="cell center maxdist-i-t maxdist-i-b">
+            <input class="search" type="text" placeholder="Search here ...">
+        </div>
     </div>
-</section>
-<div class="clear"></div>
+</div>
+
+<div class="row grey">
+    <div class="content">
+        <div class="cell center maxdist-i-b">
+            <div id="faq-list" class="white">
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="question">
+                        bla ?
+                        <span class="ss-icon">&#x25bb;</span>
+                    </div>
+                    <div class="answer inv">
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />
+                        bla bla    bla bla    bla bla    bla bla    bla bla <br >
+                        bla bla    bla bla    bla bla<br />                        
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -35,3 +35,29 @@ h1{                                     font-weight: normal; color: #a4a4a4;text
 .inv{                                   display: none;}
 .author{                                font-size: 12px;}
 .circle{                                display: inline-block;}
+.search{
+    font-size: 24px; 
+    line-height: 24px;
+    width: 500px;
+    border:1px solid lightgrey;
+    padding: 15px;
+    color: #a4a4a4;
+}
+#faq-list{
+    width:70%;
+    margin: auto;    
+    text-align: left;
+    border: 1px solid lightgrey;
+    height: 300px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.faq-item{
+    border-bottom: 1px solid lightgrey;
+    padding: 20px;
+}
+.question{
+    
+}
+.faq-item .ss-icon{padding-left:20px;}
