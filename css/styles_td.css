@@ -61,3 +61,10 @@ h1{                                     font-weight: normal; color: #a4a4a4;text
     
 }
 .faq-item .ss-icon{padding-left:20px;}
+a.button-empty{
+    border: 1px solid #49B086;
+    border-radius: 3px;
+    color: #A4A4A4;
+    padding: 8px 25px;
+    text-decoration: none;
+}
