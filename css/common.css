@@ -203,3 +203,14 @@ section.footer #content{ width: 85%; margin: auto;}
     color: #a4a4a4;
     text-decoration: none;
 }
+
+.circle{
+    text-align: center;        
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    color: #5a5a5a;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 25px;    
+}
