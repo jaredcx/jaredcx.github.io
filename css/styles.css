@@ -51,6 +51,11 @@
     width: 50px;
 }
 
+#leftline{
+    position: relative;
+    top: 20px;
+}
+
 .getstarted{
     position: relative;
     top: -40px;
