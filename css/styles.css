@@ -53,7 +53,8 @@
 
 .getstarted{
     position: relative;
-    padding-left: -100px;
+    top: -40px;
+    font-size: 22px;
 }
 
 .homearrow{
