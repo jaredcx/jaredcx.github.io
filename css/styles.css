@@ -53,13 +53,13 @@
 
 #leftline{
     position: relative;
-    top: 0px;
+    top: -5px;
     right: 20px;
 }
 
 #rightline{
     position: relative;
-    top: 0px;
+    top: -5px;
     left: 20px;
 }
 
