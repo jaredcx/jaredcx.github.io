@@ -53,7 +53,8 @@
 
 #leftline{
     position: relative;
-    top: 60px;
+    top: 20px;
+    right: 20px;
 }
 
 .getstarted{
