@@ -57,6 +57,13 @@
     right: 20px;
 }
 
+rightline{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+
 .getstarted{
     position: relative;
     top: -40px;
