@@ -457,33 +457,6 @@ section.textcenter.narrow2{
     position: absolute;
     z-index: 3;
 }
-.listitem{  
-  width: 100%;
-     background-color: white;
-    padding: 10px;    
-    margin-bottom: 20px;    
-}
-.listitem div.icon{
-    margin-left: 5px;
-}
-.listitem .icon{
-    color: #e9c858;
-    font-weight: bold;
-    font-size: 30px;
-    vertical-align: middle;
-    width: 28px;
-    margin-right: 25px;
-    display: inline-block;
-}
-.listitem div.content{
-    vertical-align: middle;
-    display: inline-block;
-    width: 85%;
-}
-
-.listitem{
-    float: right; width: 100%;    
-}
 
 .indexfooter{
     background-size: 100% 100%;
