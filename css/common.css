@@ -5,6 +5,7 @@ body{
     font-family: 'Open Sans' !important;
     font-style:  normal;
     color: #a4a4a4;    
+    overflow-x: hidden;
 }
 
 #title div{
