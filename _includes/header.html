@@ -7,11 +7,14 @@
     <meta name="description" content="{{ page.description }}">
     <meta name="keywords" content="{{ page.metatags }}">
     <meta name="author" content="Contractually">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">        
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
-        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.css">
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.js"></script>
-        <link rel="stylesheet" type="text/css" href="{{ base.url }}/css/styles{{ page.cssfile }}.css" />       
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">        
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>    
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ base.url }}/css/styles{{ page.cssfile }}.css" />
+    <link rel="stylesheet" type="text/css" href="{{ base.url }}/js/fancybox/jquery.fancybox.css">
+    <script type="text/javascript" charset="utf-8" src="{{ base.url }}/js/fancybox/jquery.fancybox.js"></script>
+    
         
         {% unless page.ssfont.empty? %}
          <script src="{{ base.url }}/Symbolset/ss-air/webfonts/{{ page.ssfont }}.js"></script>
@@ -21,10 +24,15 @@
          <script src="{{ base.url }}/Symbolset/ss-air/webfonts/{{ page.ssfont2 }}.js"></script>
         <link rel="stylesheet" type="text/css" href="{{ base.url }}/Symbolset/{{ page.ssfont2 }}/webfonts/{{ page.ssfont2 }}.css" />        
         {% endunless %}
+        {% unless page.ssfont3.empty? %}
+        <script src="{{ base.url }}/Symbolset/ss-air/webfonts/{{ page.ssfont3 }}.js"></script>
+        <link rel="stylesheet" type="text/css" href="{{ base.url }}/Symbolset/{{ page.ssfont3 }}/webfonts/{{ page.ssfont3 }}.css" />        
+        {% endunless %}
         
         
         <script type="text/javascript">
             $("document").ready(function(){
+                $(".boxlink").fancybox();
                 
                 $(".teambox a").qtip({ style: 'qtip-wiki',
                                      
