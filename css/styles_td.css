@@ -20,11 +20,12 @@
 .content .cell.vbottom{                 vertical-align: bottom;}
 .content .cell.vtop{                    vertical-align: top;}
 .content .cell.vmiddle{                 vertical-align: middle;}
+.biggertext{                            line-height: 36px; font-size: 22px;}
 .white{                                 background-color: white;}
 .green{                                 background-color: #49b086;color: white;}
 .grey{                                  background-color: #f0f0f0; }
 .l-green{                               background-color: #65b695; }
-.content{                               display:table-row;  text-align: left; }
+.content{                               display:table-row;  text-align: left;}
 .content .cell{                         display:table-cell; vertical-align: middle;}
 .button.w220{                           width: 220px; }
 .third{                                 width: 33%;   }
