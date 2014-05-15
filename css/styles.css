@@ -2,6 +2,10 @@
 
 /*Begin CSS to style home page text in 3 color bands*/
 
+.indextitle h1{
+    font-weight: 600;
+    }
+
 .toptext{
     color: #a4a4a4;
     font-size: 20px;
