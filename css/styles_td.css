@@ -20,7 +20,7 @@
 .content .cell.vbottom{                 vertical-align: bottom;}
 .content .cell.vtop{                    vertical-align: top;}
 .content .cell.vmiddle{                 vertical-align: middle;}
-.bigcontent{                            line-height: 32px; font-size: 22px;}
+.biggertext{                            line-height: 32px; font-size: 22px;}
 .white{                                 background-color: white;}
 .green{                                 background-color: #49b086;color: white;}
 .grey{                                  background-color: #f0f0f0; }
