@@ -30,6 +30,7 @@
 .content{                               display:table-row;  text-align: left;}
 .content .cell{                         display:table-cell; vertical-align: middle;}
 .button.w220{                           width: 220px; }
+.button.w160{                           width: 160px; padding-top: 8px; padding-bottom: 5px;}
 .third{                                 width: 33%;   }
 h3{                                     color: #a5a5a5a; }
 h1{                                     font-weight: normal; color: #a4a4a4;text-transform:uppercase;}
