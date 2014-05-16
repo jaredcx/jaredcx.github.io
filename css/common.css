@@ -7,6 +7,10 @@ body{
     color: #a4a4a4;    
 }
 
+strong{
+    font-weight: 500;
+}
+
 #title div{
     height: 60px;    
     width: 340px;
