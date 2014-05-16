@@ -108,6 +108,7 @@ section.text h1{
     width: 100%;
     text-align:center;
     letter-spacing: 4px;
+    font-weight: 600;
 }
 
 section.careers{
