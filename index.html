@@ -61,7 +61,11 @@ ssfont3: ss-symbolicons-line
 </section>
 <section class="textcenter white">
     <div class="content" >
-        <div class="bottomcaps"><img id="leftline" src="{{ base.url }}/images/whosusing-sm-line.png">WHO'S USING CONTRACTUALLY?<img id="rightline" src="{{ base.url }}/images/whosusing-sm-line.png"></div>
+        <div class="bottomcaps">
+            <img id="leftline" src="{{ base.url }}/images/whosusing-sm-line.png">
+                WHO'S USING CONTRACTUALLY?
+            <img id="rightline" src="{{ base.url }}/images/whosusing-sm-line.png">
+        </div>
 <br><br>   
      <img class="logosall" src="{{ base.url }}/images/logos-all.png">
     
@@ -95,8 +99,19 @@ ssfont3: ss-symbolicons-line
     }
     .circlecell{
         display: table-cell;       
-        padding-left:10%;
+        padding-left:10%;        
         width: 30%;
+        line-height: 30px;
+    }
+    .circlecell span{
+        margin-top: -10px;
+        display: inline-block;
+    }
+    .circlecell a{
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 26px;
+        color: #a4a4a4;
     }
     .indexfooter div.circle{
         padding: 30px;
@@ -118,7 +133,7 @@ ssfont3: ss-symbolicons-line
         </div>
         <div class="circlecell">
             <div class="circle" >
-                <span><br />Start a <br/>free Trial<br><b class="ss-air ss-icon"><a href="{{ base.url }}/pricing">&#x27A1;</a></b></span>
+                <span><br />Start a <br/>Free Trial<br><b class="ss-air ss-icon"><a href="{{ base.url }}/pricing">&#x27A1;</a></b></span>
             </div>
         </div>        
     </div>
