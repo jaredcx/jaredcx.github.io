@@ -68,6 +68,8 @@
     position: relative;
     top: -5px;
     right: 20px;
+    width: 10%;
+    height: 2px;
 }
 
 #rightline{
