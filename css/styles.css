@@ -72,7 +72,8 @@
 
 .getstarted{
     position: relative;
-    top: -40px;
+    top: 25px;
+    left: -200px;
     font-size: 22px;
 }
 
