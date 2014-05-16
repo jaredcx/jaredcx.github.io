@@ -67,13 +67,17 @@
 #leftline{
     position: relative;
     top: -5px;
-    right: 20px;
+    right: 40px;
+    width: 15%;
+    height: 1px;
 }
 
 #rightline{
     position: relative;
     top: -5px;
-    left: 20px;
+    left: 40px;
+    width: 15%;
+    height: 1px;
 }
 
 
