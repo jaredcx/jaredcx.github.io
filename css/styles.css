@@ -332,7 +332,7 @@ table tr.even td{
 
 table tr td.rowheader{
     border-left: 1px solid lightgrey;
-    colow: #7c7c7c;
+    color: #7c7c7c;
     text-align: left;
 }
 .pricing table tr.nrow td:first-child{
