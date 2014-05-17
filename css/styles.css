@@ -250,13 +250,15 @@ section.careers h1{
 .pricing.text{
     background-color: #f0f0f0;
 }
-
-.pricing{ margin-top: 0px; margin-bottom: 150px;}
+section.pricing{
+    padding-top: 150px;
+    padding-bottom:  150px;
+}
+.pricing{ margin-top: 0px;  }
 
 .pricing table{
     width: 90%;
-    margin: auto;
-    margin-top: 150px;
+    margin: auto;    
     border-collapse: collapse;
 }
 
