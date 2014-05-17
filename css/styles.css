@@ -306,7 +306,7 @@ section.pricing{
     font-size:  26px;
 }
 .pricing table .corner div{
-    padding: 27%;
+    padding: 10%;
 }
 .pricing table td{
     border-right: 1px solid lightgrey;
