@@ -8,6 +8,11 @@ body{
     font-size: 21px;
 }
 
+
+h2{
+    font-weight: 600;
+}    
+
 strong{
     font-weight: 600;
 }
