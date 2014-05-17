@@ -34,6 +34,7 @@
 .third{                                 width: 33%;   }
 h3{                                     color: #a5a5a5a; }
 h1{                                     font-weight: 300; color: #a4a4a4;text-transform:uppercase; letter-spacing: 3px; font-size: 26px;}
+h2{                                     font-weight: 600;}
 .innerstd{                              width: auto; margin-left: 15%; margin-right: 15%; padding: 25px;  }
 .inv h2{                                margin-top: 0px; }
 .inv{                                   display: none;}
