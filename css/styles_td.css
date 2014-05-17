@@ -39,6 +39,7 @@ h1{                                     font-weight: 300; color: #a4a4a4;text-tr
 .inv{                                   display: none;}
 .author{                                font-size: 12px;}
 .circle{                                display: inline-block;}
+.full{                                  width: 100%;}
 .search{
     font-size: 24px; 
     line-height: 24px;

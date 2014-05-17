@@ -269,3 +269,12 @@ section.footer #content{ width: 85%; margin: auto;}
 .listitem{
     float: right; width: 100%;    
 }
+
+
+.centertextwht{
+    color: white;
+    font-size: 42px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
