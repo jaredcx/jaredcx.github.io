@@ -272,12 +272,12 @@ section.pricing{
 }
 .pricing table thead .content{
     text-align: center;    
-    height: 190px;
+    height: 172px;
     background-color:   white;
 }
 
 .calltoaction{
-    padding-top: 15px;
+    padding-top: 0px;
     text-align: center;
     padding-bottom: 25px;
     background-color:   white;
