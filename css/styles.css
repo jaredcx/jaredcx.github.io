@@ -33,23 +33,6 @@
     letter-spacing: 4px; 
 }
 
-.custquote{
-    color: white;
-    font-size: 28px;
-    line-height: 48px;
-}
-
-.custquotename{
-    color: white;
-    font-size: 20px;
-}
-.custquotename img{
-    vertical-align: middle;
-} 
-.custquotename span{
-    vertical-align: middle;
-}    
-
 #dojo{
     float: none;
     width: 50px;
