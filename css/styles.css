@@ -336,23 +336,6 @@ table tr td.rowheader{
     vertical-align: middle;
 }
 
-.faq{
-    margin: 0px 120px 0px 120px;
-}
-.faq div.question{
-    display: block;
-    width: 45%;
-    margin-right:20px;
-    float: left;
-    background-color: lightgrey;
-    padding: 10px;
-    margin-bottom: 25px;
-}
-
-.faq div.answer{
-    margin-bottom: 25px;
-    display: none;
-}
 .clear{
     clear: both;
 }
