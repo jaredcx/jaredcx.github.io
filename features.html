@@ -188,7 +188,7 @@ reliable than ink, e­signatures are a faster, easier way to get your contracts 
         </div>         
     </div>
 </div>
-
+<script src="{{ base.url }}/js/smooth-scroll.js"></script>
 <script>
     $("document").ready(function(){
         $(".showfeature").click(function(){
@@ -196,9 +196,14 @@ reliable than ink, e­signatures are a faster, easier way to get your contracts 
             $(".selected").removeClass("selected");
             $(this).addClass("selected");
             $(".row.inv").show();
-            $(".cell .inv").hide();
+            $(".cell .inv").hide();           
             $("#"+id).show();
+            var options = { speed: 2000, easing: 'easeOutCubic' };
+            smoothScroll.animateScroll( null, '.answercontainer', options );            
         });
+        
+        $(".row.inv").show();
+        $("#i1").show();
     });
 </script>
 
@@ -207,7 +212,7 @@ reliable than ink, e­signatures are a faster, easier way to get your contracts 
     <div class="content">
         <div class="cell leftalign vtop stddist-i-l">          
             <h3>Create</h3>
-            <span class="showfeature" rel="i1">Import existing contracts</span>  <br />
+            <span class="showfeature selected" rel="i1">Import existing contracts</span>  <br />
             <span class="showfeature" rel="i2">Design templates</span> <br />
             <span class="showfeature" rel="i3">Import data from CRM</span>
         </div>
@@ -243,7 +248,7 @@ reliable than ink, e­signatures are a faster, easier way to get your contracts 
 
 <div class="row grey innerstd inv">
     <div class="content">
-        <div class="cell">
+        <div class="cell answercontainer">            
             <div class="inv" id="i1">
                 <h2>Sign online securely </h2>
                 Invite someone to sign with their email address, and get your contract signed with a legal, 
