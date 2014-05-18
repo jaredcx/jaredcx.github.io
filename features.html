@@ -84,8 +84,8 @@ Contractually’s API seamlessly integrates with your CRM and other applications
 </div>
 <div class="row stddist-i-b stddist-i-t grey">
     <div class="content">
-        <div class="cell narrow">
-            <h1>CONTRACT MANAGEMENT</h1>        
+        <div class="cell narrow stddist-i-b stddist-i-t">
+            <center><h1>CONTRACT MANAGEMENT</h1>        </center>
             <font style="color: #5a5a5a;">You can almost hear it.  Someone looking for a paper contract, stored in a metal filing cabinet 
             somewhere; untraceable, unsearchable, unconnected to what's happened since. </font>
         </div>
@@ -170,6 +170,11 @@ reliable than ink, e­signatures are a faster, easier way to get your contracts 
         height: 1px;
         display: inline-block;
     }
+    .selected{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
 </style>
 
 
@@ -188,6 +193,8 @@ reliable than ink, e­signatures are a faster, easier way to get your contracts 
     $("document").ready(function(){
         $(".showfeature").click(function(){
             var id=$(this).attr("rel");
+            $(".selected").removeClass("selected");
+            $(this).addClass("selected");
             $(".row.inv").show();
             $(".cell .inv").hide();
             $("#"+id).show();
