@@ -9,57 +9,10 @@ ssfont2:  ss-symbolicons-line
 cssfile: _td
 
 ---
-       <style>
 
-
-
-#title_sc {
-    background-image: url("/images/enterpriseready/featurepicenterpriseready.jpg");
-    background-size: cover;
-    display: table;
-    height: 450px;
-    overflow: hidden;
-    position: static;
-    text-align: center;
-    vertical-align: middle;
-    width: 100%;
-}
-
-#title_sc h1{
-    vertical-align: middle;
-    display: inline;
-    padding: 25px;
-    font-size: 42px;
-    letter-spacing: 4px;
-    padding-left: 30px;
-    padding-right: 30px;    
-    background-color: #49b086;
-    color: white;
-}
-
-#title_sc h1 {
-    background-color: #49B086  ;
-    color: #FFFFFF  ;
-    display: inline-block;
-    font-size: 42px;
-    letter-spacing: 4px;
-    padding: 25px 30px;
-}
-
-	
-.heading_wrap {
-    display: table-cell;
-    position: static;
-    vertical-align: middle;
-}
-
-       </style>
-
-<div id="title_sc">         
+<div id="title_sc" style="background-image: url('{{ base.url }}/images/enterpriseready/featurepicenterpriseready.jpg');">         
      <div class="heading_wrap"><h1>HOW DOES IT WORK?</h1></div> 
 </div>
-
-
 
 <div class="row stddist-i-b maxdist-i-t">
     <div class="content biggertext">
@@ -67,7 +20,7 @@ cssfile: _td
             <p class="biggertext">
                “As a startup accelerator, we do a lot of contracts, including Share Purchase and IPR agreements. With each intake program we do more than 40 contracts that all require lightning fast turnaround. This was really painful until we started using Contractually, which speeds up our entire contract process. Contractually enables us to focus on offering the best service to our startups and focus on the things that matter most.”
 </p> 
-Ian Jeffrey, <span style="font-size: 16px;font-weight: 100">Co-founder & GM, FounderFuel</span>
+<span class="author">Ian Jeffrey, <span style="font-weight: 100">Co-founder & GM, FounderFuel</span></span>
 <br /><br /><br />
     </div>
 </div>
@@ -83,8 +36,7 @@ Ian Jeffrey, <span style="font-size: 16px;font-weight: 100">Co-founder & GM, Fou
         <div class="cell stddist-i-l stddist-i-r stddist-i-b vtop">
 </br>
             <div class="betdist-i-l betdist-i-r" >
-                <h1><center>HOW IT WORKS</center></h1>
-                
+                <h1><center>HOW IT WORKS</center></h1><br/><br/>                
             </div>
             <div class="list biggertext betdist-i-l betdist-i-r">                
                     <div class="listitem">
@@ -114,8 +66,9 @@ Ian Jeffrey, <span style="font-size: 16px;font-weight: 100">Co-founder & GM, Fou
             <img width="200" src="{{ base.url }}/images/howitworks/computer.png">
         </div>
         <div class="cell leftalign stddist-i-r betdist-i-l w70">
+            <br />
             <h1>INVITE VS. SEND</h1>
-</br>            
+
             <p>
            With Contractually, you don’t send documents out to other people, you invite them in to collaborate. This makes it far easier and pleasant to work quickly together and complete the contract. No more version clutter.
             </p>
@@ -126,11 +79,13 @@ Ian Jeffrey, <span style="font-size: 16px;font-weight: 100">Co-founder & GM, Fou
 
 <div class="row stddist-i-b stddist-i-t green">
     <div class="content">     
-        <div class="cell leftalign stddist-i-l betdist-i-r w70">           
+        <div class="cell leftalign stddist-i-l betdist-i-r w70">
+            <br>
             <p class="biggertext">
 “Contractually has helped ViaSport streamline the contract process of our granting program, allowing us to save thousands of dollars each year in administration costs. This savings means that more of our dollars can be invested directly into community sport programs helping us achieve our goal of making sport more accessible across British Columbia. Additionally, the team at Contractually and the excellent customer service they provide made the transition from away from paper contracts an easy shift for us and our grant recipients.” 
             </p></br>
-Michelle Hohne, <span style="font-size: 16px;font-weight: 100">ViaSport</span>
+ 
+<span class="author" style="color: white">Michelle Hohne, <span style="font-weight: 100">ViaSport</span></span>
 </br>            
         </div>
         <div class="cell stddist-i-r">
@@ -190,7 +145,7 @@ Michelle Hohne, <span style="font-size: 16px;font-weight: 100">ViaSport</span>
           <a class="button w160" href="#"><span>Try our <i>free</i> Trial</span></a></div>
       <div class="cell stddist-i-t stddist-i-b green center">
          <div class="stddist-i-l" style="text-align: left;float: left; margin-right: -150px;margin-top: 5px;">
-            <i>Continue the tour</i> <br />
+            <i style="font-size: 14px">Continue the tour</i> <br />
             <span class="biggertext">For Enterprise</span>
          </div>
          <font class="ss-icon" style="color: white;font-size: 54px;">&#x25BB;</font>

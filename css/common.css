@@ -341,3 +341,52 @@ section.footer #content{ width: 85%; margin: auto;}
 
 
 
+
+#title_sc {   
+    background-size: cover;
+    display: table;
+    height: 450px;
+    overflow: hidden;
+    position: static;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+
+#title_sc h1{
+    vertical-align: middle;
+    display: inline;
+    padding: 25px;
+    font-size: 42px;
+    letter-spacing: 4px;
+    padding-left: 30px;
+    padding-right: 30px;    
+    background-color: #49b086;
+     font-weight: 600;
+    color: white;
+}
+
+#title_sc h1 {
+    background-color: #49B086  ;
+    color: #FFFFFF  ;
+    display: inline-block;
+    font-size: 42px;
+    letter-spacing: 4px;
+    padding: 25px 30px;
+}
+
+	
+.heading_wrap {
+    display: table-cell;
+    position: static;
+    vertical-align: middle;
+}
+
+.author{
+    font-size: 16px;
+    color: #a4a4a4;
+}
+
+
+
+
