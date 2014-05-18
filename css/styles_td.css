@@ -39,7 +39,10 @@ h1{                                     font-weight: 300; color: #a4a4a4;text-tr
 .inv h2{                                margin-top: 0px; }
 .inv{                                   display: none;}
 .author{                                font-size: 12px;}
-.circle{                                display: inline-block;}
+.circle{                                display: inline-block; line-height: normal; font-size: 20px;}
+.circle .ss-icon{                       font-size: 26px; }
+.circle a{                              color: #a4a4a4;}
+
 .full{                                  width: 100%;}
 .noline{                                line-height: normal;}
 .search{
