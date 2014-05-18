@@ -16,7 +16,7 @@ strong{
     font-weight: 600;
 }
 #title_container{
-    position:relative;    
+    margin-bottom: 100px;    
 }
 
 #title_content_outer {    
@@ -71,7 +71,6 @@ strong{
     width: 70%;
     font-size: 60px;
     font-weight: 600;
-    line-height: 70px;
 }
 
 #title{   position: relative;    }
