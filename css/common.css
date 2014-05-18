@@ -16,7 +16,8 @@ strong{
     font-weight: 600;
 }
 #title_container{
-    margin-bottom: 100px;    
+    margin-bottom: 100px;l
+    
 }
 
 #title_content_outer {    
@@ -167,11 +168,6 @@ a.login{
     box-shadow: 1px 2px 2px #d6840b;
 }
 
-a.greyunderline{
-    color: #a4a4a4;
-    font-size: 20px;
-    text-decoration: underline;
-}
 
 a.navbutton:hover{ background-color: #ec9126;    }
 a.button:hover{ background-color: #ec9126; }
@@ -244,6 +240,7 @@ section.footer #content{ width: 85%; margin: auto;}
     font-size: 12px;
     vertical-align: middle;
     text-decoration: none;
+    line-height: normal;
 }
  
  .disclaimer .discol {
