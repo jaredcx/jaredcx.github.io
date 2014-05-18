@@ -170,6 +170,7 @@ a.login{
 a.greyunderline{
     color: #a4a4a4;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 a.navbutton:hover{ background-color: #ec9126;    }
