@@ -36,7 +36,7 @@ strong{
 }
 
 #title div span{
-    display: inline-block; margin-top: -8px;
+    display: inline-block; margin-top: -8px; letter-spacing: 4px;
 }
 
 #title_index div{
