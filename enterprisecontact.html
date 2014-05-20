@@ -12,3 +12,62 @@ cssfile: _td
 <div id="title_sc" style="background-image: url('{{ base.url }}/images/product-header.jpg');">         
      <div class="heading_wrap"><h1>ENTERPRISE CONTACT US</h1></div> 
 </div>
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- NOTE: Please add the following <FORM> element to your page. -->
+<!-- ---------------------------------------------------------------------- -->
+
+<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00Di0000000iWMS">
+<!--<input type=hidden name="retURL" value="http://www.contractual.ly/putyourthankyoupageurlhere.html">-->
+<input type=hidden name="lead_source" value="website">
+
+<!-- ---------------------------------------------------------------------- -->
+<!-- NOTE: These fields are optional debugging elements. Please uncomment -->
+<!-- these lines if you wish to test in debug mode. -->
+<!-- <input type="hidden" name="debug" value=1> -->
+<!-- <input type="hidden" name="debugEmail" value="service@shift-crm.com"> -->
+<!-- ---------------------------------------------------------------------- -->
+
+<style>
+   label{
+        width: 220px;
+display: block;
+float:left;
+   }	
+   input[type="text"], input[type="email"], textarea, select{
+width: 300px;
+   border: 1px solid lightgrey;
+   padding: 5px;
+   margin-bottom: 5px;
+}
+</style>
+
+
+<label for="company">Company</label><input id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="title">Title</label><input id="title" maxlength="40" name="title" size="20" type="text" /><br>
+
+<label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="industry">employees</label><select id="employees" name="employees">
+<option value="10">1-10</option>
+<option value="100">11-100</option>
+<option value="500">101-500</option>
+<option value="bigger">500+</option>
+</select><br>
+
+<label for="description">Notes</label><textarea name="description"></textarea><br>
+
+<input type="submit" name="submit" value="Submit">
+
+</form>
+
+</section>
