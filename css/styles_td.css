@@ -71,6 +71,7 @@ h1{                                     font-weight: 300; color: #a4a4a4;text-tr
 .answer{
     padding: 0px 20px 20px 20px;    
     background-color: #f8f8f8;
+    font-size: 16px;
 }
 .faq-item .ss-icon{padding-left:20px;}
 a.button-empty{
