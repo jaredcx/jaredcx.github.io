@@ -67,7 +67,7 @@ h1{                                     font-weight: 300; color: #a4a4a4;text-tr
     border-bottom: 1px solid lightgrey;
     
 }
-.question{ padding: 20px;    }
+.question{ padding: 10px; font-size: 16px;    }
 .answer{
     padding: 0px 20px 20px 20px;    
     background-color: #f8f8f8;
