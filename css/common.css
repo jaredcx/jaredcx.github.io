@@ -396,6 +396,7 @@ a.roundarrowlink .ss-icon{
 a.roundarrowlink:hover .ss-icon{
 	text-decoration: none;
 	color: red;
+	ms zoom: 1;
 }
 
 
