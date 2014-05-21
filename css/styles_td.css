@@ -5,7 +5,7 @@
 .stddist-o-r{                           margin-right:15%; }
 .stddist-i-r{                           padding-right:15%; }
 .stddist-i-l a{                         text-decoration: none; color: white; }
-.stddist-i-l a:hover{                   text-decoration: none; color: white; ms zoom: 1; }
+.stddist-i-l a:hover{                   text-decoration: none; color: white; font-size: 22px; }
 
 .betdist-i-l{                           padding-left:7.5%; }
 .betdist-i-r{                           padding-right:7.5%; }
