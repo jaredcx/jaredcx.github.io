@@ -4,7 +4,7 @@
 .stddist-o-l{                           margin-left:15%; }
 .stddist-o-r{                           margin-right:15%; }
 .stddist-i-r{                           padding-right:15%; }
-.stddist-i-l a{                         text-decoration: none; }
+.stddist-i-l a{                         text-decoration: none; color: white; }
 .betdist-i-l{                           padding-left:7.5%; }
 .betdist-i-r{                           padding-right:7.5%; }
 .narrow{                                padding-left:25%;padding-right:25%; }
