@@ -387,6 +387,10 @@ section.footer #content{ width: 85%; margin: auto;}
     color: #a4a4a4;
 }
 
+a.roundarrowlink .ss-icon{
+	text-decoration: none;
+	color: white;
+}
 
 
 
