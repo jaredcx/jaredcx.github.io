@@ -265,6 +265,10 @@ section.pricing{
     font-size: 14px;
 }
 
+table#footer td{
+    border: 0px;
+}
+
 .pricing table thead .top{
     text-align: center;
     background-color: #47a982;
