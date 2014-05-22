@@ -46,6 +46,14 @@ width: 300px;
 }
 </style>
 
+<script>
+     function pressed(){         
+         $("#formsend").click();         
+         return false;
+     }
+     
+</script>
+
 <div class="row stddist-i-b stddist-i-t">
     <div class="content">
         <div class="cell narrow">
@@ -63,7 +71,7 @@ width: 300px;
                <div class="clear"></div>
                <label for="description">Notes</label><textarea name="description"></textarea><br>
                <center><input id="formsend" class="button inv" type="submit" name="submit" value="Submit">
-               <a href="#" onClick="$("#formsend").click();return false;" class="button"><span>Submit</span></a>
+               <a href="#" onClick="pressed();" class="button"><span>Submit</span></a>
                </center>
                </form>
         </div>
