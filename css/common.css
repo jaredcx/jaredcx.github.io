@@ -196,7 +196,7 @@ a.button_link{
     margin-bottom: 15px;
 }
 
-section.text, section.footer{
+section.text{
     position: relative;
     width: 50%;
     font-size: 18px;
@@ -206,35 +206,9 @@ section.text, section.footer{
     line-height: 1.8;
 }
 
-section.footer{
-    left: 0px;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;    
-    height: 500px;
-}
 .button span{ display:inline-block; margin-top:10px;}
 section.text.wide{ width: 60%; margin: auto;}
-section.footer #content{ width: 85%; margin: auto;}
 
-.footer .col{
-    padding-top: 50px;
-    width: 23%;
-    height: 100px;
-    float: left;    
-    margin-right: 20px;
-}
-
-.footerbox{
-    text-decoration: none;
-    color: #a4a4a4;
-    font-size: 16px;
-    background-color: #f8f8f8;
-    padding: 10px 10px 10px 10px;
-    display: inline-block;
-    width: 180px;
-    text-align: center;
-}
 .disclaimer{  
     height: 100px;
     width: 100%;
@@ -257,17 +231,6 @@ section.footer #content{ width: 85%; margin: auto;}
 .disclaimer .discol{ padding: 0 10px 0 10px; }
 .disclaimer .left{ border-right: 1px solid #f0f0f0; }
 .disclaimer a.rightlinks{ text-decoration: none; color: #a2a2a2; }
-
-.footer a.page{
-    font-size: 16px;
-    color: #5a5a5a;
-    text-decoration: none;    
-}
-.footer a.anchor{
-    font-size: 14px;
-    color: #7c7c7c;
-    text-decoration: none;
-}
 
 .circle{
     text-align: center;        
@@ -392,12 +355,41 @@ a.roundarrowlink .ss-icon{
 	color: white;
 }
 
-
 a.roundarrowlink:hover .ss-icon{
 	text-decoration: none;
 	color: red;
 	ms zoom: 1;
 }
 
+#footer {    
+    width: 90%;
+    margin: 50px 5% 50px 5%;    
+    line-height: 1.8;        
+    font-size: 14px;
+}
+#footer a{
+    text-decoration: none;
+    color: #7C7C7C;
+}
 
+#footer td{
+    vertical-align: top;    
+}
+
+#footer a.page {
+    font-size: 16px;
+    color: #5A5A5A;
+    text-decoration: none;
+}
+
+.footerbox{
+    text-decoration: none;
+    color: #a4a4a4;
+    font-size: 16px;
+    background-color: #f8f8f8;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+}
 
