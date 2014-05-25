@@ -387,6 +387,11 @@ a.roundarrowlink:hover .ss-icon{
     text-decoration: none;
 }
 
+
+a.login:hover{
+	border: 30px dashed yellow;
+}
+
 .footerbox{
     text-decoration: none;
     color: #a4a4a4;
