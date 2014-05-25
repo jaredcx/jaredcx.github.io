@@ -373,8 +373,13 @@ a.roundarrowlink:hover .ss-icon{
 }
 
 #footer td{
-    vertical-align: top;    
+    vertical-align: top;
+    width: 22.5%;
 }
+#footer td.middle{
+    padding-left: 5%;
+}
+
 
 #footer a.page {
     font-size: 16px;
