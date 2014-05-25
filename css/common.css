@@ -390,7 +390,7 @@ a.roundarrowlink:hover .ss-icon{
 
 a.login:hover{
 	border: 1px solid grey;
-	background-color: lightgrey;
+	background-color: #f0f0f0;
 	color: black;
 }
 
