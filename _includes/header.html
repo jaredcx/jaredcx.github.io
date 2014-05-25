@@ -74,7 +74,7 @@
 
         <ul class="navigation">            
             <li class="mr"><a {% if page.tag == 'features' %} class="active"{% endif %} href="{{ base.url }}/features">FEATURES</a></li>
-            <li class="mr"><a href="{{ base.url }}/support">SUPPORT</a></li>
+            <li class="mr"><a {% if page.tag == 'support' %} class="active"{% endif %}  href="{{ base.url }}/support">SUPPORT</a></li>
             <li class="mr"><a href="http://blog.contractual.ly" target="_blank" >BLOG</a></li>
             <li class="mr"><a{% if page.tag == 'about' %} class="active"{% endif %} href="{{ base.url }}/about">ABOUT</a></li>
             <li class="mrs"><a class="login hover" href="https://contractual.ly/login" target="_blank" >LOGIN</a></li>
