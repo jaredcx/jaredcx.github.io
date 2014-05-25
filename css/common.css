@@ -389,9 +389,7 @@ a.roundarrowlink:hover .ss-icon{
 
 
 a.login:hover{
-	border: 1px solid grey;
-	background-color: #f0f0f0;
-	color: black;
+	background-color: #f8f8f8;
 }
 
 .footerbox{
