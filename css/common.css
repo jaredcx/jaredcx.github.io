@@ -119,7 +119,7 @@ ul.navigation{
 .navigation li{  float: left; margin-right: 25px;}
 header{    font-size: 16px; padding: 0 120px 10 120px; background-color: white;}
 .logo{ margin-top: 30px;}
-.navigation a.active{ color: #7c7c7c;  }
+.navigation a.active{ color: #5a5a5a;  }
 
 .navigation a{
     text-decoration: none;    
@@ -385,6 +385,11 @@ a.roundarrowlink:hover .ss-icon{
     font-size: 16px;
     color: #5A5A5A;
     text-decoration: none;
+}
+
+
+a.login:hover{
+	background-color: #f8f8f8;
 }
 
 .footerbox{
