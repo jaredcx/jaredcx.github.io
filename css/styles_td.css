@@ -41,7 +41,7 @@ h1{                                     font-weight: 300; color: #a4a4a4;text-tr
 .innerstd{                              width: auto; margin-left: 15%; margin-right: 15%; padding: 25px;  }
 .inv h2{                                margin-top: 0px; }
 .inv{                                   display: none;}
-.author{                                font-size: 12px;}
+.author{                                font-size: 21px;}
 .circle{                                display: inline-block; line-height: normal; font-size: 20px;}
 .circle .ss-icon{                       font-size: 26px; }
 .circle a{                              color: #a4a4a4;}
