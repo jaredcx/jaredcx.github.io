@@ -128,23 +128,47 @@ ssfont3: ss-symbolicons-line
     
 </style>
 
-<section class="textcenter white indexfooter circletable">    
-    <div class="content circlerow" >
-       <div class="circlecell">       
-          <div class="circle am" style="display: inline;">
-               <span ><br />Features & <br />Pricing<br><b class="ss-air ss-icon"><a href="{{ base.url }}/features">&#x27A1;</a></b></span>   
-            </div>
+<!--
+ images/features&pricing.png | Bin 0 -> 11057 bytes
+ images/freetrial-badge.png  | Bin 0 -> 18590 bytes
+ images/requestdemo.png      | Bin 0 -> 8680 bytes
+-->
+<style>
+    .cell{
+        float: left;
+        text-align: center;
+        width: 33%;
+    }
+    .uwide{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .uwide .content{
+        margin-bottom: -50px;
+        margin-top: -50px;
+    }
+</style>
+
+<section class="textcenter grey indexfooter uwide">    
+    <div class="content " >
+        <center><h2 class="bottomcaps" style="font-size: 36px">WHAT'S NEXT ?</h2></center><br><br>
+        <div class="cell">
+            <img height="190" src="{{ base.url }}/images/features&pricing.png" /><br><br>
+            Check out what's great<br/> about Contractually!<br><br>
+            <a style="width: 170px;" href="#" class="button"><span>Features & Pricing</span></a>
         </div>
-        <div class="circlecell">
-            <div class="circle am" >
-                <span><br />Request a <br />Demo<br><b class="ss-air ss-icon"><a href="{{ base.url }}/enterprisecontact">&#x27A1;</a></b></span>
-            </div>
+        <div class="cell">
+            <img height="190" src="{{ base.url }}/images/requestdemo.png" /><br><br>
+            Let us show you how<br/> Contractually works<br><br>
+            <a style="width: 170px;" href="#" class="button"><span>Request a Demo</span></a>
         </div>
-        <div class="circlecell">
-            <div class="circle" >
-                <span><br />Start a <br/>Free Trial<br><b class="ss-air ss-icon"><a href="{{ base.url }}/pricing">&#x27A1;</a></b></span>
-            </div>
-        </div>        
+        <div class="cell">
+            <img height="190" src="{{ base.url }}/images/freetrial-badge.png" /><br><br>
+            30 day free trial on any<br/> plan you choose<br><br>
+            <a style="width: 170px;" href="#" class="button"><span>Start a Free Trial</span></a>
+        </div>
+        <div class="clear"></div>
     </div>
 </section>
  
