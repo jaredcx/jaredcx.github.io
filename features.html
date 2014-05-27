@@ -198,11 +198,11 @@ traceable record of edits and reviews.
 <script>
     $("document").ready(function(){
         $(".showfeature").click(function(){
+            $(".answercontainer :visible").hide();           
             var id=$(this).attr("rel");
             $(".selected").removeClass("selected");
             $(this).addClass("selected");
-            $(".row.inv").show();
-            $(".cell .inv").hide();           
+            $(".row.inv").show();            
             $("#"+id).show();
             var options = { speed: 2000, easing: 'easeOutCubic' };
             smoothScroll.animateScroll( null, '.answercontainer', options );            
@@ -304,7 +304,7 @@ Invite someone to sign with their email address, and get your contract signed wi
 </div>                     
 <div class="inv" id="i20">
 <h2>API to connect existing systems</h2>
-Our API (Application Programming Interface) allows for integrations to any other system.  This enables many advanced features to be created beyond our already robust feature list.  Flow data into contracts from other systems, create custom workflows, flow contract field data into other systems such as Vendor Management, Supply Chain, Financials or other ERP systems.</div> 
+Our API (Application Programming Interface) allows for integrations to any other system.  This enables many advanced features to be created beyond our already robust feature list.  Flow data into contracts from other systems, create custom workflows, flow contract field data into other systems such as Vendor Management, Supply Chain, Financials or other ERP systems.
         </div>   
 <div class="inv" id="i21">
 <h2>Version control</h2>
