@@ -75,16 +75,15 @@ a:hover{ text-decoration: none; color: white;}
 .contact2{ display: none;}
 
 .titlevid{
-font-size: 14px;
-border-radius: 3px;
-padding: 15px 15px 90px 15px;
-margin-right: 100px;
-width: 140px;
-float: right;
-color: #FFF;
-height: 60px;
-display: inline-block;
-border: 2px solid #FFF;    
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 15px 15px 90px 15px;
+    margin-right: 100px;
+    width: 140px;
+    color: #FFF;
+    height: 60px;
+    display: inline-block;
+    border: 2px solid #FFF;    
 }
 
 
