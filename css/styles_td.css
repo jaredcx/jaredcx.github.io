@@ -1,5 +1,11 @@
-.navbar-toggle{
-    border: 3px solid blue;
-    color: black;
+ul.navbar-nav{
+/*    float: right;*/
+}
+
+
+
+
+button.navbar-toggle{
+    background-color: #fda134;
 }
 
