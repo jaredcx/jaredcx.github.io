@@ -32,6 +32,13 @@ body {
     font-weight: 300;
 }
 
+.footer {
+font-size: 16px;
+color: #5A5A5A;
+text-decoration: none;
+}
+
+
 
 #topwrapper{ color: white;}
 .navbar-inverse .navbar-nav > li > a.login:hover { background-color: #F8F8F8; }
