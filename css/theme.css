@@ -55,7 +55,9 @@ body {
     color: #a4a4a4;
 }
 
-
+button.navbar-toggle{
+    color: black;
+}
 a:hover{ text-decoration: none; color: white;}
 .container{ font-size: 1.2em;    }
 .navbar-nav>li>a { line-height: 32px; }
@@ -202,3 +204,6 @@ div.navbar{
     .contact2{ display: block; text-align: left;}
     .contact3{ text-align: left; }
 } 
+
+
+@import url("styles_td.css");
