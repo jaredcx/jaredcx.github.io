@@ -1,11 +1,13 @@
 ul.navbar-nav{
-/*    float: right;*/
+    float: right;
 }
-
-
-
 
 button.navbar-toggle{
     background-color: #fda134;
 }
+
+@media (max-width: 768px) {
+    ul.navbar-nav{ float: left; }
+
+ }
 
