@@ -1,3 +1,5 @@
+
+@import url("styles_td.css");
 body {    
     padding-top: 50px;
     margin: 0px;
@@ -206,4 +208,3 @@ div.navbar{
 } 
 
 
-@import url("styles_td.css");
