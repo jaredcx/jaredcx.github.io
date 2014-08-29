@@ -58,6 +58,10 @@ text-align: center;
     background-color: #37FDFC;
 }
 
+.whosusingtext{
+    color: #a4a4a4
+    font-size 16px;
+}
 
 #topwrapper{ color: white;}
 .navbar-inverse .navbar-nav > li > a.login:hover { background-color: #F8F8F8; }
