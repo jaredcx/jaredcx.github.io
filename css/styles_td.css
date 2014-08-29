@@ -10,4 +10,24 @@ button.navbar-toggle{
     ul.navbar-nav{ float: left; }
 
  }
+ 
+a.footerbox,a.footerbox:hover{
+    text-decoration: none;
+    color: #7C7C7C;
+}
+
+
+.footerbox {
+    width: 100%;
+    font-size: 16px;
+    background-color: #f8f8f8;    
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.smalltext{
+    font-size: smaller;
+} 
 
