@@ -29,5 +29,13 @@ a.footerbox,a.footerbox:hover{
 
 .smalltext{
     font-size: smaller;
-} 
+}
+
+div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
+    color: #a4a4a4;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
 

@@ -48,9 +48,10 @@ color: #7C7C7C;
     background-color: #FFFFFF;
 }
 
-a.whosusingtext{
-    color: #a4a4a4
-    font-size 16px;
+
+div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
+    color: #a4a4a4;
+    font-size: 16px;
     text-decoration: none;
 }
 
