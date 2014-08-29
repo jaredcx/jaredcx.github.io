@@ -43,6 +43,11 @@ text-decoration: none;
 color: #7C7C7C;
 }
 
+.disclaimer{
+    color: #a2a2a2;
+    font-size: 12px;
+}
+
 
 .whitebg{
     background-color: #FFFFFF;
