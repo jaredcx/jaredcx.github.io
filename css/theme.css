@@ -239,8 +239,8 @@ div.navbar{
 }
 @media (max-width: 1200px) {
     .contact1{ display: none;}
-    .contact2{ display: block; text-align: left;}
-    .contact3{ text-align: left; }
+    .contact2{ display: block; }
+    .contact3{  }
 } 
 
 
