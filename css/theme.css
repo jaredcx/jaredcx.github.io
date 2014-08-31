@@ -32,15 +32,15 @@ body {
 }
 
 .footer {
-font-size: 16px;
-color: #5A5A5A;
-text-decoration: none;
+    font-size: 16px;
+    color: #5A5A5A;
+    text-decoration: none;
 }
 
-.subfooter {
-font-size: 14px;    
-text-decoration: none;
-color: #7C7C7C;
+.footer .subfooter a, .footer  .subfooter a:hover, .subfooter {
+    font-size: 14px;    
+    text-decoration: none;
+    color: #7C7C7C;
 }
 
 .disclaimer{
@@ -111,7 +111,7 @@ a:hover{ text-decoration: none; color: white;}
 .navbar-header{   height: 80px; }
 .navbar-header img{ width: 180px; }
 .clear{ clear: both;  }
-.footer{ color:  #5A5A5A; }
+.footer a, .footer a:hover, .footer{ color:  #5A5A5A; }
 .contact2{ display: none;}
 
 .titlevid{
@@ -270,4 +270,10 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     color: #a4a4a4;
     font-size: 16px;
     text-decoration: none;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }

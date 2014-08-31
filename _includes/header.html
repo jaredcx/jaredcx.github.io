@@ -27,6 +27,43 @@
   <script src="{{ base.url }}/Symbolset/ss-air/webfonts/{{ page.ssfont3 }}.js"></script>
   <link rel="stylesheet" type="text/css" href="{{ base.url }}/Symbolset/{{ page.ssfont3 }}/webfonts/{{ page.ssfont3 }}.css" />        
   {% endunless %}
+  
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.1.1/jquery.qtip.js"></script>    
+    <link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox.css">
+    <script type="text/javascript" charset="utf-8" src="/js/fancybox/jquery.fancybox.js"></script>
+    
+            <script type="text/javascript">
+            $("document").ready(function(){
+                $(".boxlink").fancybox();
+                $(".teambox a").qtip({ style: 'qtip-wiki',                                     
+                    hide: {
+                        fixed: true,
+                        delay: 300
+                    },
+                position: {		   
+		       my: 'top center',
+		       at: 'bottom center'		                      
+                },
+                content: {
+                text: function(event, api) {                    
+                    $.ajax({
+                        url: api.elements.target.attr('href') // Use href attribute as URL
+                    })
+                    .then(function(content) {                 
+                        api.set('content.text', content);
+                    }, function(xhr, status, error) {                        
+                        api.set('content.text', status + ': ' + error);
+                    });        
+                    return 'Loading...'; // Set some initial text
+                }
+                }
+                });
+                $(".teambox a").click(function(){
+                    return false;
+                });                
+            });     
+     </script> 
         
   </head>
   <body>
@@ -40,16 +77,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="http://www.contractual.ly/images/logo1.png"></a>
+          <a class="navbar-brand" href="{{ base.url }}"><img src="http://www.contractual.ly/images/logo1.png"></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">FEATURES</a></li>
-            <li><a href="#about">SUPPORT</a></li>
-            <li><a href="#contact">BLOG</a></li>
-            <li><a href="#contact">ABOUT</a></li>
-            <li class="hidden-xs"><a class="login" href="#contact">LOGIN</a></li>
-            <li class="hidden-xs"><a class="button" href="#contact">FREE TRIAL</a></li>          
+            <li class="active"><a href="{{ base.url }}/features">FEATURES</a></li>
+            <li><a href="http://support.contractual.ly">SUPPORT</a></li>
+            <li><a href="http://blog.contractual.ly">BLOG</a></li>
+            <li><a href="{{ base.url }}/about">ABOUT</a></li>
+            <li class="hidden-xs"><a class="login" href="http://contractual.ly/login">LOGIN</a></li>
+            <li class="hidden-xs"><a class="button" href="{{ base.url }}/pricing">FREE TRIAL</a></li>          
           </ul>          
         </div><!--/.nav-collapse -->
       </div>
