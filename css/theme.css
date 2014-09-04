@@ -1,5 +1,13 @@
+.circles{    
+    font-size: 20px;
+    color: #5A5A5A;
+}
+.nexttitle{
+    color: #A4A4A4;
+    margin-bottom: 0px;
+    letter-spacing: 4px;
+}
 
-@import url("styles_td.css");
 body {    
     padding-top: 50px;
     margin: 0px;
@@ -7,18 +15,13 @@ body {
     font-family: 'Open Sans' !important;
     font-style:  normal;
     color: #a4a4a4;
-    font-size: larger;    
+    font-size: 21px;
 }
 
 .login{    
     border: 1px solid #DEDEDE;
     border-radius: 3px;
 }
-
-.center-y{
-    vertical-align:middle;
-}
-
 
 #title h1{
     font-size: 60px;
@@ -49,11 +52,6 @@ body {
 }
 
 
-.whitebg{
-    background-color: #FFFFFF;
-}
-
-
 div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     color: #a4a4a4;
     font-size: 16px;
@@ -63,7 +61,6 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
 #topwrapper{ color: white;}
 .navbar-inverse .navbar-nav > li > a.login:hover { background-color: #F8F8F8; }
 .navbar-inverse .navbar-nav > li > a.button{ color: white; }
-
 .navbar-inverse .navbar-nav > li > a.button:hover {
     background-color: #d6840b;
      -webkit-border-radius: 3px;
@@ -73,10 +70,7 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     box-shadow: 1px 2px 2px #d6840b;
     color: white;
 }
-
-.getstarted {
-font-size: 22px;
-}
+.navbar-inverse .navbar-nav > li > a.login:hover{ color: #a4a4a4; }
 
 .content{
     padding-top: 45px;
@@ -86,18 +80,19 @@ font-size: 22px;
     font-size: 22px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    margin: 15px;
-    font-size: larger;
+.navbar-inverse .navbar-nav > li > a {    
+    margin: 15px;    
     text-decoration: none;
     color: #a4a4a4;
 }
 
-button.navbar-toggle{
-    color: black;
-}
-a:hover{ text-decoration: none; color: white;}
-.container{ font-size: 1.2em;    }
+.grey{ background-color:  #F0F0F0; padding-top: 30px;    }
+.green{ background-color: #49B086; color: white; }
+button.navbar-toggle{ color: black; }
+a,a:hover{ text-decoration: none; color: white;}
+a:hover{ color: white;}
+.grey .ss-icon a{ color: #A4A4A4; }
+.green a{ color: white; }
 .navbar-nav>li>a { line-height: 32px; }
 .navbar { padding: 10px; }
 .navbar-inverse .navbar-nav>.active>a,
@@ -117,8 +112,7 @@ a:hover{ text-decoration: none; color: white;}
 .titlevid{
     font-size: 14px;
     border-radius: 3px;
-    padding: 15px 15px 90px 15px;
-    
+    padding: 15px 15px 90px 15px;    
     width: 140px;
     color: #FFF;
     height: 60px;
@@ -126,23 +120,12 @@ a:hover{ text-decoration: none; color: white;}
     border: 2px solid #FFF;    
 }
 
-
-.navbar-inverse .navbar-nav > .active > a {
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > li > a:hover {
     background-image: none;
     background-repeat: none;
-    box-shadow: none;
-    color: #a4a4a4;    
-    background-color: white;    
+    box-shadow: none;    
 }
-.navbar-inverse .navbar-nav > li > a:hover {
-    background-image: none;
-    background-repeat: none;
-    box-shadow: none;
-    color: #a4a4a4;    
-    background-color: white;    
-}
-
-
+ 
 .starter-template {
   padding: 40px 15px;
   text-align: center;
@@ -153,24 +136,9 @@ a:hover{ text-decoration: none; color: white;}
     padding-bottom: 30px;            
 }
 
-.grey{
-    background-color:  #F0F0F0;
-    padding-top: 30px;    
-}
-.green{
-    background-color: #49B086;
-    color: white;
-}
-
-.green.content a{
- text-decoration: none;
- color: white;
-}
-
 div.navbar{
     background-color: white;
-    background-image: none;
-    color: #A4A4A4;
+    background-image: none; 
 }
 
 .title{
@@ -178,14 +146,11 @@ div.navbar{
     padding-bottom: 150px;
 }
 
-
 .button, .navigation a.navbutton, a.navbutton, a.button_link{ 
-    background-color: #fda134;
-    color: white;
+    background-color: #fda134;    
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-decoration: none;  
+    border-radius: 3px;    
     padding-left: 25px;
     padding-right: 25px;
     box-shadow: 1px 2px 2px #d6840b;    
@@ -212,15 +177,12 @@ div.navbar{
     margin-bottom: 15px;
 }
 
-
 .bottomcaps{
     color: #a4a4a4;
     font-size: 16px;
     letter-spacing: 4px;     
 }
-
-.green .bannertext{ color: white; }
-.green .bottomcaps{ color: white; }
+.green .bottomcaps, .green .bannertext{ color: white; }
 
 .vcenter{    
     display:inline-block;
@@ -255,6 +217,11 @@ a.footerbox,a.footerbox:hover{
     text-decoration: none;
     color: #7C7C7C;
 }
+
+author { font-size: 0.8em; display: block;margin-top: 30px;}
+author img{ margin-right: 20px;}
+author .company{ font-weight: 100; }
+
 
 .footerbox {
     width: 200px;
