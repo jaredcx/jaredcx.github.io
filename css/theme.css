@@ -68,7 +68,7 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     border-radius: 3px;
     text-decoration: none;      
     box-shadow: 1px 2px 2px #d6840b;
-    color: white;
+    
 }
 .navbar-inverse .navbar-nav > li > a.login:hover{ color: #a4a4a4; }
 
@@ -83,8 +83,10 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
 .navbar-inverse .navbar-nav > li > a {    
     margin: 15px;    
     text-decoration: none;
+    font-size: 0.8em;
     color: #a4a4a4;
 }
+.navbar-inverse .navbar-nav > li > a:hover{ color: #a4a4a4; }
 
 .grey{ background-color:  #F0F0F0; padding-top: 30px;    }
 .green{ background-color: #49B086; color: white; }
@@ -94,7 +96,7 @@ a:hover{ color: white;}
 .grey .ss-icon a{ color: #A4A4A4; }
 .green a{ color: white; }
 .navbar-nav>li>a { line-height: 32px; }
-.navbar { padding: 10px; }
+.navbar { padding: 10px;}
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus { color: #a4a4a4; background-color: transparent; }
@@ -205,7 +207,9 @@ div.navbar{
     .contact3{  }
 }
 
-ul.navbar-nav{ float: right; }
+ul.navbar-nav{ float: right;
+/*padding-right: 80px;*/
+}
 button.navbar-toggle{ background-color: #fda134; }
 .smalltext{ font-size: smaller; }
 
@@ -243,4 +247,11 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     display: inline-block;
     vertical-align: middle;
     float: none;
+}
+
+.careerlink{
+    position: absolute;    
+    top: 0px;
+    right: 0px;    
+    /*z-index:2; */
 }
