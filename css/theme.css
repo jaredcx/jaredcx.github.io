@@ -80,6 +80,8 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     font-size: 22px;
 }
 
+.title .titletext{ }
+
 .navbar-inverse .navbar-nav > li > a {    
     margin: 15px;    
     text-decoration: none;
@@ -147,6 +149,8 @@ div.navbar{
     padding-top: 150px;
     padding-bottom: 150px;
 }
+
+
 
 .button, .navigation a.navbutton, a.navbutton, a.button_link{ 
     background-color: #fda134;    
@@ -243,6 +247,22 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     text-decoration: none;
 }
 
+.titlecontainer{
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 2em;
+    color: white;
+}
+
+.snug-right{  padding-right: 0px; }
+.snug-left{  padding-left: 0px; }
+
+.titletext{
+    margin-top: 30px;
+    background-color: #49B086;
+    padding-left: 25px 0px 25px 0px;        
+}
+
 .vcenter {
     display: inline-block;
     vertical-align: middle;
@@ -254,4 +274,30 @@ div.container-fluid a.whosusingtext:hover, div.container-fluid a.whosusingtext{
     top: 0px;
     right: 0px;    
     /*z-index:2; */
+}
+
+.listitem div.content {
+    vertical-align: middle;
+    display: inline-block;
+    width: 85%;
+    padding: 10px;
+}
+.smaller{ font-size: 0.8em;} 
+.l-green { background-color: #65B695;}
+
+.listitem {
+    float: right;
+    width: 100%;
+    background-color: #FFF;    
+    margin-bottom: 10px;
+}
+.listitem div.icon {
+    margin-left: 5px;
+    color: #E9C858;
+    font-weight: bold;
+    font-size: 30px;
+    vertical-align: middle;
+    width: 28px;
+    margin-right: 25px;
+    display: inline-block;
 }
